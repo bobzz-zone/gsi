@@ -1,0 +1,8 @@
+{
+ "rebase_on_pull": false, 
+ "serve_default_site": true, 
+ "restart_supervisor_on_update": true, 
+ "auto_update": true, 
+ "update_bench_on_update": true, 
+ "shallow_clone": true
+}

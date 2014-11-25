@@ -1,0 +1,45 @@
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/website/render.py", line 23, in render
+    data = render_page(path)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/website/render.py", line 97, in render_page
+    out = frappe.cache().get_value(cache_key)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/memc.py", line 19, in get_value
+    val = self.get(self.n(key))
+  File "/home/sigma/frappe-bench/env/local/lib/python2.7/site-packages/memcache.py", line 898, in get
+    return self._get('get', key)
+  File "/home/sigma/frappe-bench/env/local/lib/python2.7/site-packages/memcache.py", line 847, in _get
+    self.check_key(key)
+  File "/home/sigma/frappe-bench/env/local/lib/python2.7/site-packages/memcache.py", line 1062, in check_key
+    "Control characters not allowed")
+ MemcachedKeyCharacterError: Control characters not allowed
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/website/render.py", line 23, in render
+    data = render_page(path)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/website/render.py", line 97, in render_page
+    out = frappe.cache().get_value(cache_key)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/memc.py", line 19, in get_value
+    val = self.get(self.n(key))
+  File "/home/sigma/frappe-bench/env/local/lib/python2.7/site-packages/memcache.py", line 898, in get
+    return self._get('get', key)
+  File "/home/sigma/frappe-bench/env/local/lib/python2.7/site-packages/memcache.py", line 847, in _get
+    self.check_key(key)
+  File "/home/sigma/frappe-bench/env/local/lib/python2.7/site-packages/memcache.py", line 1062, in check_key
+    "Control characters not allowed")
+ MemcachedKeyCharacterError: Control characters not allowed
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/website/render.py", line 23, in render
+    data = render_page(path)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/website/render.py", line 97, in render_page
+    out = frappe.cache().get_value(cache_key)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/memc.py", line 19, in get_value
+    val = self.get(self.n(key))
+  File "/home/sigma/frappe-bench/env/local/lib/python2.7/site-packages/memcache.py", line 898, in get
+    return self._get('get', key)
+  File "/home/sigma/frappe-bench/env/local/lib/python2.7/site-packages/memcache.py", line 847, in _get
+    self.check_key(key)
+  File "/home/sigma/frappe-bench/env/local/lib/python2.7/site-packages/memcache.py", line 1062, in check_key
+    "Control characters not allowed")
+ MemcachedKeyCharacterError: Control characters not allowed
+

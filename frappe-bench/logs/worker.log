@@ -1,0 +1,1485 @@
+ 
+ -------------- celery@GSI v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7fa5083cc810
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7fba498bc890
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7f636044f890
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7ff8a76fc890
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7f5feb599d50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7f950b71af50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7fef601e5f50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7fc1891c4f50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7f91fcf09f50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7fc2487b3f50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7f9f19966f50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7fe62ed8af50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7f2cb6c69f50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7f0487e04f50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7f9ed8a61f50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7f84f60a1f50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7ffa9dcc1f50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7fd62e7c4f50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7f054f8b9f50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7f5aec81ff50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7fc325038f50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7ff776f73f50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7ff8b2227f50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7f8dc9b7ef50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7f7cfce11f50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7f1e77f2cf50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7ff39fadcf50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7f170f338f50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7f8ddf9bef50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7f24915f4f50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7f5ac4554f50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7f8551464f50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7f3add0c9f50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7f3b7ca52f50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7fb8c3badf50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7fb4606c9f50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7f24d5ff3f50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7f0be4aebf50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7fde70457f50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7faf3f662f50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7f64304e1f50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7f57a2960f50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7f912ccd6f50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7f2fe733df50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7fb3832a0f50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7f580fdc2f50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7fd6027ccf50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7f0dc90d1f50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7f579d762f50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7f4cf3427f50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7f929f724f50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7f535b215f50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7ffec3b6ff50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7fc10cfeaf50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7f9abaf62f50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7eff1b64bf50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7f63b8312f50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7f8b080d6f50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7f9756830f50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7f79bac20f50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7fc432cb1f50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7fd83313ff50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7fbd366a7f50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7f753fd91f50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7f21db102f50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7fe997fc6f50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7f7d3ffedf50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7f1bf8c02f50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7f89d44def50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7f41231a3f50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7ff7919b6f50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7f62ec064f50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7fef6da25f50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7f3a29e77f50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7fd425edff50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7f0173ad9f50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7f98b9d0cf50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7f1d41678f50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7f81a32a3f50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7f2f848b9f50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7f275a43af50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7f9f5e357f50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7fe8d5484f50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7fc104b4ff50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7f83fba38f50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7fb197de6f50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7fcab0cb0f50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7f92dd934f50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7f823e50cf50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7febc95ccf50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7f76e92eff50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7f403463dd50
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7f7bc9fb0d90
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7ffc6130af90
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7fecb0c3bf90
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7ffa67b07f90
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7f414c5b5f90
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7fe705447f90
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+
+ 
+ -------------- celery@GSI2 v3.1.13 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-3.13.0-32-generic-x86_64-with-Ubuntu-14.04-trusty
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         frappe:0x7f528adeaf90
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     disabled
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> celery           exchange=celery(direct) key=celery
+                
+

@@ -1,0 +1,327 @@
+[2014-09-05 00:05:22,851: WARNING/MainProcess] celery@test ready.
+[2014-09-05 00:15:32,955: WARNING/MainProcess] celery@test ready.
+[2014-09-17 08:11:34,923: WARNING/MainProcess] celery@GSI ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-09-17 08:18:05,599: WARNING/MainProcess] celery@GSI ready.
+[2014-09-17 11:39:49,511: WARNING/MainProcess] celery@GSI ready.
+[2014-09-17 23:49:36,136: WARNING/MainProcess] celery@GSI ready.
+[2014-09-18 02:42:00,037: WARNING/MainProcess] celery@GSI ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-09-18 04:09:28,174: WARNING/MainProcess] celery@GSI ready.
+[2014-09-23 02:24:57,023: WARNING/MainProcess] celery@GSI2 ready.
+[2014-09-26 20:59:29,860: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-09-27 04:18:52,956: WARNING/MainProcess] celery@GSI2 ready.
+[2014-10-22 03:15:06,286: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-10-22 22:00:15,187: WARNING/MainProcess] celery@GSI2 ready.
+[2014-10-24 09:59:49,062: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-10-24 10:27:27,472: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-10-24 10:28:40,258: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-10-24 10:31:42,122: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-10-24 10:40:02,891: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-10-24 10:41:33,225: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-10-24 10:45:24,125: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-10-24 10:52:05,751: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-10-24 10:57:52,306: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-10-24 10:59:34,382: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-10-24 11:11:30,415: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-10-24 11:14:46,135: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-10-24 11:18:46,557: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-10-26 05:01:47,786: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-10-26 05:40:28,279: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-10-26 05:53:34,690: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-10-26 08:07:19,191: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-10-26 08:19:04,666: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-10-26 08:25:02,070: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-10-26 08:29:24,110: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-10-27 12:19:36,641: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-10-27 12:21:49,728: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-10-28 04:59:28,457: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-02 01:51:28,232: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-02 01:52:40,028: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-02 01:54:01,502: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-02 01:59:53,818: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-02 01:14:39,988: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-02 01:55:40,992: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-02 01:57:39,511: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-02 02:05:19,487: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-02 02:07:45,398: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-02 02:08:52,144: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-02 02:11:49,094: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-02 02:12:42,699: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-02 02:49:41,386: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-02 02:51:20,033: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-02 02:52:19,859: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-02 03:43:16,445: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-02 03:45:04,328: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-02 03:55:37,055: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-02 03:57:05,083: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-02 03:59:48,951: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-02 04:06:02,517: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-02 04:16:57,117: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-02 04:18:02,999: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-02 04:26:05,040: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-02 04:26:54,424: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-02 04:28:20,314: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-02 06:24:53,394: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-02 11:22:26,204: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-02 11:23:36,139: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-02 11:24:21,274: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-02 21:53:49,873: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-02 21:56:01,343: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-02 21:57:40,341: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-02 21:58:26,356: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-03 05:57:52,582: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-03 06:09:49,286: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-03 11:19:22,255: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-04 02:25:57,689: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-04 02:55:18,301: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-04 02:59:51,731: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-04 03:06:00,828: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-04 03:10:35,748: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-06 07:20:25,998: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-06 11:28:54,390: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-06 11:32:57,100: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-06 11:34:54,259: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-06 11:36:46,863: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-06 11:42:08,412: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-10 00:24:33,170: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-10 00:35:35,776: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-10 00:49:55,418: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-10 00:54:14,792: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-10 00:57:40,502: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-10 01:08:45,854: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-10 01:20:10,324: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-10 01:20:36,441: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-10 01:21:13,626: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-10 01:24:12,827: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-10 01:24:32,267: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-10 01:51:06,192: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-10 01:51:59,385: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-10 01:52:57,961: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-10 01:54:47,709: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-10 01:55:24,423: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-10 01:59:13,397: WARNING/MainProcess] celery@GSI2 ready.
+[2014-11-14 06:39:13,475: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-21 03:29:52,684: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-21 05:12:03,989: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-24 05:00:06,361: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-24 05:07:58,882: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-24 05:16:08,508: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-24 08:48:32,179: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-24 08:57:45,002: WARNING/MainProcess] celery@GSI2 ready.
+[2014-11-24 12:03:04,326: ERROR/MainProcess] Task frappe.tasks.scheduler_task[d15646ef-efdf-41a0-995f-6fa3176074b9] raised unexpected: OutgoingEmailError(u'Outgoing Mail Server not specified',)
+Traceback (most recent call last):
+  File "/home/sigma/frappe-bench/env/local/lib/python2.7/site-packages/celery/app/trace.py", line 240, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/sigma/frappe-bench/env/local/lib/python2.7/site-packages/celery/app/trace.py", line 437, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/tasks.py", line 77, in scheduler_task
+    frappe.get_attr(handler)()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/core/doctype/event/event.py", line 70, in send_event_digest
+    msg = text)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/utils/email_lib/__init__.py", line 17, in sendmail
+    send(get_email(recipients, sender, msg, subject, attachments=attachments))
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/utils/email_lib/smtp.py", line 26, in send
+    smtpserver.sess.sendmail(email.sender, email.recipients + (email.cc or []),
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/utils/email_lib/smtp.py", line 75, in sess
+    raise frappe.OutgoingEmailError, err_msg
+OutgoingEmailError: Outgoing Mail Server not specified
+
+worker: Cold shutdown (MainProcess)
+[2014-11-24 12:36:33,103: WARNING/MainProcess] celery@GSI2 ready.
+[2014-11-24 22:17:21,702: WARNING/MainProcess] celery@GSI2 ready.
+[2014-11-24 22:21:32,187: WARNING/MainProcess] celery@GSI2 ready.

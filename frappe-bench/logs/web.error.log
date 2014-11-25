@@ -1,0 +1,3230 @@
+
+2014-10-22 22:15:08,814 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{}',
+ 'report_name': u'Production Cost'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 81, in run
+    result = [list(t) for t in frappe.db.sql(report.query, filters)]
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/database.py", line 110, in sql
+    self._cursor.execute(query, values)
+  File "/home/sigma/frappe-bench/env/local/lib/python2.7/site-packages/MySQLdb/cursors.py", line 205, in execute
+    self.errorhandler(self, exc, value)
+  File "/home/sigma/frappe-bench/env/local/lib/python2.7/site-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+ ProgrammingError: (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near \'Production Order:Link/Production Order:200",\n\t  prod.qty as "To Produce:Int:100"\' at line 9')
+
+--------------
+
+2014-10-22 23:04:37,755 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{}',
+ 'report_name': u'Production Cost'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 81, in run
+    result = [list(t) for t in frappe.db.sql(report.query, filters)]
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/database.py", line 110, in sql
+    self._cursor.execute(query, values)
+  File "/home/sigma/frappe-bench/env/local/lib/python2.7/site-packages/MySQLdb/cursors.py", line 205, in execute
+    self.errorhandler(self, exc, value)
+  File "/home/sigma/frappe-bench/env/local/lib/python2.7/site-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+ ProgrammingError: (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near \'Production Order",\n\t  prod.qty as "To Produce",\n\t  prod.produced_qty as "Produce\' at line 9')
+
+--------------
+
+2014-10-22 23:09:36,540 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{}',
+ 'report_name': u'Production Cost'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 81, in run
+    result = [list(t) for t in frappe.db.sql(report.query, filters)]
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/database.py", line 110, in sql
+    self._cursor.execute(query, values)
+  File "/home/sigma/frappe-bench/env/local/lib/python2.7/site-packages/MySQLdb/cursors.py", line 205, in execute
+    self.errorhandler(self, exc, value)
+  File "/home/sigma/frappe-bench/env/local/lib/python2.7/site-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+ ProgrammingError: (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near \'Production Order", prod.qty as "To Produce", prod.produced_qty as "Produced", su\' at line 1')
+
+--------------
+
+2014-10-22 23:11:58,916 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{}',
+ 'report_name': u'Production Cost'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 81, in run
+    result = [list(t) for t in frappe.db.sql(report.query, filters)]
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/database.py", line 110, in sql
+    self._cursor.execute(query, values)
+  File "/home/sigma/frappe-bench/env/local/lib/python2.7/site-packages/MySQLdb/cursors.py", line 205, in execute
+    self.errorhandler(self, exc, value)
+  File "/home/sigma/frappe-bench/env/local/lib/python2.7/site-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+ ProgrammingError: (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near \'Production Order", prod.qty as "To Produce", prod.produced_qty as "Produced", su\' at line 1')
+
+--------------
+
+2014-10-22 23:19:01,508 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{}',
+ 'report_name': u'Production Cost'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 81, in run
+    result = [list(t) for t in frappe.db.sql(report.query, filters)]
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/database.py", line 110, in sql
+    self._cursor.execute(query, values)
+  File "/home/sigma/frappe-bench/env/local/lib/python2.7/site-packages/MySQLdb/cursors.py", line 205, in execute
+    self.errorhandler(self, exc, value)
+  File "/home/sigma/frappe-bench/env/local/lib/python2.7/site-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+ OperationalError: (1054, "Unknown column 'tbl.Total bahan' in 'field list'")
+
+--------------
+
+2014-10-22 23:19:40,675 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{}',
+ 'report_name': u'Production Cost'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 81, in run
+    result = [list(t) for t in frappe.db.sql(report.query, filters)]
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/database.py", line 110, in sql
+    self._cursor.execute(query, values)
+  File "/home/sigma/frappe-bench/env/local/lib/python2.7/site-packages/MySQLdb/cursors.py", line 205, in execute
+    self.errorhandler(self, exc, value)
+  File "/home/sigma/frappe-bench/env/local/lib/python2.7/site-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+ OperationalError: (1054, "Unknown column 'tbl.Total HPP' in 'field list'")
+
+--------------
+
+2014-10-23 05:09:59,451 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-09-23","to_date":"2014-10-23","Monthly_Cost":"700000","Stitching":"700000","Cutting":"700000","Assebmly":"700000"}',
+ 'report_name': u'Production Cost Analytics'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 519, in get_attr
+    return getattr(get_module(modulename), methodname)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 379, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 36
+    filters, as_dict=1)
+    ^
+ IndentationError: unexpected indent
+
+--------------
+
+2014-10-23 05:09:59,528 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-09-23","to_date":"2014-10-23","Monthly_Cost":"700000","Stitching":"700000","Cutting":"700000","Assebmly":"700000"}',
+ 'report_name': u'Production Cost Analytics'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 519, in get_attr
+    return getattr(get_module(modulename), methodname)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 379, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 36
+    filters, as_dict=1)
+    ^
+ IndentationError: unexpected indent
+
+--------------
+
+2014-10-23 05:10:38,683 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-09-23","to_date":"2014-10-23","Monthly_Cost":"700000","Stitching":"700000","Cutting":"700000","Assebmly":"700000"}',
+ 'report_name': u'Production Cost Analytics'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 519, in get_attr
+    return getattr(get_module(modulename), methodname)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 379, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 35
+    production_data = frappe.db.sql("""SELECT prod.category,prod.name , prod.qty, prod.produced_qty , sum(IF(STD.s_warehouse is NULL,1,0)*STD.amount) as "HPP", sum(IF(STD.t_warehouse is NULL,1,0)*STD.amount) as "bahan" FROM `tabProduction Order` prod JOIN `tabStock Entry` STE on STE.production_order=prod.name JOIN `tabStock Entry Detail` STD on STD.parent=STE.name WHERE prod.docstatus=1 and STE.docstatus=1 and STD.docstatus=1 group by prod.name"""),as_dict=1)
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                              ^
+ SyntaxError: invalid syntax
+
+--------------
+
+2014-10-23 05:12:08,301 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-09-23","to_date":"2014-10-23","Monthly_Cost":"700000","Stitching":"700000","Cutting":"700000","Assebmly":"700000"}',
+ 'report_name': u'Production Cost Analytics'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 9, in execute
+    columns = get_columns()
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 30, in get_columns
+    return [_("Posting Date") + ":Date:100", "Production:Link/Production Order:200", "To Be Produced:Int:100", "Produced:Int:100", "Total Bahan:Float:100","Total Produksi:Float:100","Total Est Cost:Float:100","Cost Production:Float:100","Cost Monthly:Float:100"]
+ NameError: global name '_' is not defined
+
+--------------
+
+2014-10-23 05:12:12,134 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-09-23","to_date":"2014-10-23","Monthly_Cost":"700000","Stitching":"700000","Cutting":"700000","Assebmly":"700000"}',
+ 'report_name': u'Production Cost Analytics'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 9, in execute
+    columns = get_columns()
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 30, in get_columns
+    return [_("Posting Date") + ":Date:100", "Production:Link/Production Order:200", "To Be Produced:Int:100", "Produced:Int:100", "Total Bahan:Float:100","Total Produksi:Float:100","Total Est Cost:Float:100","Cost Production:Float:100","Cost Monthly:Float:100"]
+ NameError: global name '_' is not defined
+
+--------------
+
+2014-10-23 05:12:57,011 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-09-23","to_date":"2014-10-23","Monthly_Cost":"700000","Stitching":"700000","Cutting":"700000","Assebmly":"700000"}',
+ 'report_name': u'Production Cost Analytics'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 11, in execute
+    return columns, get_production_data()
+ TypeError: get_production_data() takes exactly 1 argument (0 given)
+
+--------------
+
+2014-10-23 05:13:33,071 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-09-23","to_date":"2014-10-23","Monthly_Cost":"700000","Stitching":"700000","Cutting":"700000","Assebmly":"700000"}',
+ 'report_name': u'Production Cost Analytics'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 9, in execute
+    columns = get_columns()
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 30, in get_columns
+    return ["Production time:Date:100", "Production:Link/Production Order:200", "To Be Produced:Int:100", "Produced:Int:100", "Total Bahan:Float:100","Total Produksi:Float:100","Total Est Cost:Float:100","Cost Production:Float:100","Cost Monthly:Float:100"]
+ NameError: global name '_' is not defined
+
+--------------
+
+2014-10-23 05:13:35,228 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-09-23","to_date":"2014-10-23","Monthly_Cost":"700000","Stitching":"700000","Cutting":"700000","Assebmly":"700000"}',
+ 'report_name': u'Production Cost Analytics'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 11, in execute
+    return columns, get_production_data(filters)
+ TypeError: get_production_data() takes exactly 1 argument (0 given)
+
+--------------
+
+2014-10-23 05:13:56,267 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-09-23","to_date":"2014-10-23","Monthly_Cost":"70000","Stitching":"70000","Cutting":"70000","Assebmly":"70000"}',
+ 'report_name': u'Production Cost Analytics'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 11, in execute
+    return columns, get_production_data(filters)
+ TypeError: get_production_data() takes exactly 1 argument (0 given)
+
+--------------
+
+2014-10-23 05:13:56,338 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-09-23","to_date":"2014-10-23","Monthly_Cost":"70000","Stitching":"70000","Cutting":"70000","Assebmly":"70000"}',
+ 'report_name': u'Production Cost Analytics'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 9, in execute
+    columns = get_columns()
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 30, in get_columns
+    return ["Production time:Date:100", "Production:Link/Production Order:200", "To Be Produced:Int:100", "Produced:Int:100", "Total Bahan:Float:100","Total Produksi:Float:100","Total Est Cost:Float:100","Cost Production:Float:100","Cost Monthly:Float:100"]
+ NameError: global name '_' is not defined
+
+--------------
+
+2014-10-23 05:15:07,455 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-09-23","to_date":"2014-10-23","Monthly_Cost":"70000","Stitching":"70000","Cutting":"70000","Assebmly":"70000"}',
+ 'report_name': u'Production Cost Analytics'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 11, in execute
+    return columns, get_production_data(filters)
+ TypeError: get_production_data() takes exactly 1 argument (0 given)
+
+--------------
+
+2014-10-23 05:16:05,916 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-09-23","to_date":"2014-10-23","Monthly_Cost":"70000","Stitching":"70000","Cutting":"70000","Assebmly":"70000"}',
+ 'report_name': u'Production Cost Analytics'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 9, in execute
+    columns = get_columns()
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 30, in get_columns
+    return ["Production time:Date:100", "Production:Link/Production Order:200", "To Be Produced:Int:100", "Produced:Int:100", "Total Bahan:Float:100","Total Produksi:Float:100","Total Est Cost:Float:100","Cost Production:Float:100","Cost Monthly:Float:100"]
+ NameError: global name '_' is not defined
+
+--------------
+
+2014-10-23 05:16:09,443 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-09-23","to_date":"2014-10-23","Monthly_Cost":"70000","Stitching":"70000","Cutting":"70000","Assebmly":"70000"}',
+ 'report_name': u'Production Cost Analytics'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 9, in execute
+    columns = get_columns()
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 30, in get_columns
+    return ["Production time:Date:100", "Production:Link/Production Order:200", "To Be Produced:Int:100", "Produced:Int:100", "Total Bahan:Float:100","Total Produksi:Float:100","Total Est Cost:Float:100","Cost Production:Float:100","Cost Monthly:Float:100"]
+ NameError: global name '_' is not defined
+
+--------------
+
+2014-10-23 05:16:12,710 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-09-23","to_date":"2014-10-23","Monthly_Cost":"70000","Stitching":"70000","Cutting":"70000","Assebmly":"70000"}',
+ 'report_name': u'Production Cost Analytics'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 11, in execute
+    return columns, data
+ TypeError: get_production_data() takes exactly 1 argument (0 given)
+
+--------------
+
+2014-10-23 05:18:44,844 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-09-23","to_date":"2014-10-23","Monthly_Cost":"700000","Stitching":"700000","Cutting":"700000","Assebmly":"700000"}',
+ 'report_name': u'Production Cost Analytics'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 9, in execute
+    columns = get_columns()
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 30, in get_columns
+    return ["Production time:Date:100", "Production:Link/Production Order:200", "To Be Produced:Int:100", "Produced:Int:100", "Total Bahan:Float:100","Total Produksi:Float:100","Total Est Cost:Float:100","Cost Production:Float:100","Cost Monthly:Float:100"]
+ NameError: global name '_' is not defined
+
+--------------
+
+2014-10-23 05:18:44,977 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-09-23","to_date":"2014-10-23","Monthly_Cost":"700000","Stitching":"700000","Cutting":"700000","Assebmly":"700000"}',
+ 'report_name': u'Production Cost Analytics'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 11, in execute
+    return columns, data
+ TypeError: get_production_data() takes exactly 1 argument (0 given)
+
+--------------
+
+2014-10-23 05:19:28,317 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-09-23","to_date":"2014-10-23","Monthly_Cost":"700000","Stitching":"700000","Cutting":"700000","Assebmly":"700000"}',
+ 'report_name': u'Production Cost Analytics'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 11, in execute
+    return columns, data
+ TypeError: get_production_data() takes exactly 1 argument (0 given)
+
+--------------
+
+2014-10-23 05:21:14,929 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-09-23","to_date":"2014-10-23","Monthly_Cost":"700000","Stitching":"700000","Cutting":"700000","Assebmly":"700000"}',
+ 'report_name': u'Production Cost Analytics'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 9, in execute
+    columns = get_columns()
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 30, in get_columns
+    return ["Production time:Date:100", "Production:Link/Production Order:200", "To Be Produced:Int:100", "Produced:Int:100", "Total Bahan:Float:100","Total Produksi:Float:100","Total Est Cost:Float:100","Cost Production:Float:100","Cost Monthly:Float:100"]
+ NameError: global name '_' is not defined
+
+--------------
+
+2014-10-23 05:25:09,351 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-09-23","to_date":"2014-10-23","Monthly_Cost":"700000","Stitching":"700000","Cutting":"700000","Assebmly":"700000"}',
+ 'report_name': u'Production Cost Analytics'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 9, in execute
+    columns = get_columns()
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 30, in get_columns
+    return ["Production time:Date:100", "Production:Data:200", "To Be Produced:Int:100", "Produced:Int:100", "Total Bahan:Float:100","Total Produksi:Float:100","Total Est Cost:Float:100","Cost Production:Float:100","Cost Monthly:Float:100"]
+ NameError: global name '_' is not defined
+
+--------------
+
+2014-10-23 05:32:25,894 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-09-23","to_date":"2014-10-23","Monthly_Cost":"700000","Stitching":"700000","Cutting":"700000","Assebmly":"700000"}',
+ 'report_name': u'Production Cost Analytics'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 9, in execute
+    columns = get_columns()
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 30, in get_columns
+    return ["Production time:Date:100", "Production:Data:200", "To Be Produced:Int:100", "Produced:Int:100", "Total Bahan:Float:100","Total Produksi:Float:100","Total Est Cost:Float:100","Cost Production:Float:100","Cost Monthly:Float:100"]
+ NameError: global name '_' is not defined
+
+--------------
+
+2014-10-23 05:33:28,400 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-09-23","to_date":"2014-10-23","Monthly_Cost":"700000","Stitching":"700000","Cutting":"700000","Assebmly":"700000"}',
+ 'report_name': u'Production Cost Analytics'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 9, in execute
+    columns = ["Production time:Date:100", "Production:Data:200", "To Be Produced:Int:100", "Produced:Int:100", "Total Bahan:Float:100","Total Produksi:Float:100","Total Est Cost:Float:100","Cost Production:Float:100","Cost Monthly:Float:100"]
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 30, in get_columns
+    return ["Production time:Date:100", "Production:Data:200", "To Be Produced:Int:100", "Produced:Int:100", "Total Bahan:Float:100","Total Produksi:Float:100","Total Est Cost:Float:100","Cost Production:Float:100","Cost Monthly:Float:100"]
+ NameError: global name '_' is not defined
+
+--------------
+
+2014-10-23 05:33:37,821 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-09-23","to_date":"2014-10-23","Monthly_Cost":"700000","Stitching":"700000","Cutting":"700000","Assebmly":"700000"}',
+ 'report_name': u'Production Cost Analytics'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 11, in execute
+    return columns, data
+ TypeError: get_production_data() takes exactly 1 argument (0 given)
+
+--------------
+
+2014-10-24 05:49:17,863 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-09-24","to_date":"2014-10-24","Monthly_Cost":"70000","Stitching":"70000","Cutting":"70000","Assebmly":"70000"}',
+ 'report_name': u'Production Cost Analytics'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 11, in execute
+    return columns, data
+ TypeError: get_production_data() takes exactly 1 argument (0 given)
+
+--------------
+
+2014-10-24 05:49:18,119 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-09-24","to_date":"2014-10-24","Monthly_Cost":"70000","Stitching":"70000","Cutting":"70000","Assebmly":"70000"}',
+ 'report_name': u'Production Cost Analytics'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 9, in execute
+    columns = ["Production time:Date:100", "Production:Data:200", "To Be Produced:Int:100", "Produced:Int:100", "Total Bahan:Float:100","Total Produksi:Float:100","Total Est Cost:Float:100","Cost Production:Float:100","Cost Monthly:Float:100"]
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 30, in get_columns
+    return ["Production time:Date:100", "Production:Data:200", "To Be Produced:Int:100", "Produced:Int:100", "Total Bahan:Float:100","Total Produksi:Float:100","Total Est Cost:Float:100","Cost Production:Float:100","Cost Monthly:Float:100"]
+ NameError: global name '_' is not defined
+
+--------------
+
+2014-10-24 05:56:45,421 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-09-24","to_date":"2014-10-24","Monthly_Cost":"70000","Stitching":"70000","Cutting":"70000","Assebmly":"70000"}',
+ 'report_name': u'Production Cost Analytics'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 9, in execute
+    columns = ["Production time:Date:100", "Production:Data:200", "To Be Produced:Int:100", "Produced:Int:100", "Total Bahan:Float:100","Total Produksi:Float:100","Total Est Cost:Float:100","Cost Production:Float:100","Cost Monthly:Float:100"]
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 30, in get_columns
+    return ["Production time:Date:100", "Production:Data:200", "To Be Produced:Int:100", "Produced:Int:100", "Total Bahan:Float:100","Total Produksi:Float:100","Total Est Cost:Float:100","Cost Production:Float:100","Cost Monthly:Float:100"]
+ NameError: global name '_' is not defined
+
+--------------
+
+2014-10-24 06:21:02,561 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-09-24","to_date":"2014-10-24","Monthly_Cost":"70000","Stitching":"70000","Cutting":"70000","Assebmly":"70000"}',
+ 'report_name': u'Production Cost Analytics'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 9, in execute
+    columns = ["Production time:Date:100", "Production:Data:200", "To Be Produced:Int:100", "Produced:Int:100", "Total Bahan:Float:100","Total Produksi:Float:100","Total Est Cost:Float:100","Cost Production:Float:100","Cost Monthly:Float:100"]
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 30, in get_columns
+    return ["Production time:Date:100", "Production:Data:200", "To Be Produced:Int:100", "Produced:Int:100", "Total Bahan:Float:100","Total Produksi:Float:100","Total Est Cost:Float:100","Cost Production:Float:100","Cost Monthly:Float:100"]
+ NameError: global name '_' is not defined
+
+--------------
+
+2014-10-24 06:25:51,977 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-09-24","to_date":"2014-10-24","Monthly_Cost":"70000","Stitching":"70000","Cutting":"70000","Assebmly":"70000"}',
+ 'report_name': u'Production Cost Analytics'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 11, in execute
+    return columns, data
+ TypeError: get_production_data() takes exactly 1 argument (0 given)
+
+--------------
+
+2014-10-24 07:16:02,742 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-09-24","to_date":"2014-10-24","Monthly_Cost":"70000","Stitching":"70000","Cutting":"70000","Assebmly":"70000"}',
+ 'report_name': u'Production Cost Analytics'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 9, in execute
+    columns = ["Production time:Date:100", "Production:Data:200", "To Be Produced:Int:100", "Produced:Int:100", "Total Bahan:Float:100","Total Produksi:Float:100","Total Est Cost:Float:100","Cost Production:Float:100","Cost Monthly:Float:100"]
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 30, in get_columns
+    return ["Production time:Date:100", "Production:Data:200", "To Be Produced:Int:100", "Produced:Int:100", "Total Bahan:Float:100","Total Produksi:Float:100","Total Est Cost:Float:100","Cost Production:Float:100","Cost Monthly:Float:100"]
+ NameError: global name '_' is not defined
+
+--------------
+
+2014-10-24 07:16:39,678 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-09-24","to_date":"2014-10-24","Monthly_Cost":"70000","Stitching":"70000","Cutting":"70000","Assebmly":"70000"}',
+ 'report_name': u'Production Cost Analytics'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 9, in execute
+    columns = ["Production time:Date:100", "Production:Data:200", "To Be Produced:Int:100", "Produced:Int:100", "Total Bahan:Float:100","Total Produksi:Float:100","Total Est Cost:Float:100","Cost Production:Float:100","Cost Monthly:Float:100"]
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 30, in get_columns
+    return ["Production time:Date:100", "Production:Data:200", "To Be Produced:Int:100", "Produced:Int:100", "Total Bahan:Float:100","Total Produksi:Float:100","Total Est Cost:Float:100","Cost Production:Float:100","Cost Monthly:Float:100"]
+ NameError: global name '_' is not defined
+
+--------------
+
+2014-10-24 09:40:23,961 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-09-24","to_date":"2014-10-24","Monthly_Cost":"70000","Stitching":"70000","Cutting":"70000","Assebmly":"70000"}',
+ 'report_name': u'Production Cost Analytics'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 9, in execute
+    columns = ["Production time:Date:100", "Production:Data:200", "To Be Produced:Int:100", "Produced:Int:100", "Total Bahan:Float:100","Total Produksi:Float:100","Total Est Cost:Float:100","Cost Production:Float:100","Cost Monthly:Float:100"]
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 30, in get_columns
+    return ["Production time:Date:100", "Production:Data:200", "To Be Produced:Int:100", "Produced:Int:100", "Total Bahan:Float:100","Total Produksi:Float:100","Total Est Cost:Float:100","Cost Production:Float:100","Cost Monthly:Float:100"]
+ NameError: global name '_' is not defined
+
+--------------
+
+2014-10-24 09:41:36,755 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-09-24","to_date":"2014-10-24","Monthly_Cost":"70000","Stitching":"70000","Cutting":"70000","Assebmly":"70000"}',
+ 'report_name': u'Production Cost Analytics'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 11, in execute
+    columns = get_columns()
+ TypeError: get_production_data() takes exactly 1 argument (0 given)
+
+--------------
+
+2014-10-24 09:41:39,695 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-09-01","to_date":"2014-10-24","Monthly_Cost":"70000","Stitching":"70000","Cutting":"70000","Assebmly":"70000"}',
+ 'report_name': u'Production Cost Analytics'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 9, in execute
+    columns, data = [], []
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 30, in get_columns
+ NameError: global name '_' is not defined
+
+--------------
+
+2014-10-24 09:42:16,725 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-09-01","to_date":"2014-10-24","Monthly_Cost":"70000","Stitching":"70000","Cutting":"70000","Assebmly":"70000"}',
+ 'report_name': u'Production Cost Analytics'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 9, in execute
+    columns, data = [], []
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 30, in get_columns
+ NameError: global name '_' is not defined
+
+--------------
+
+2014-10-24 09:42:51,393 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-09-01","to_date":"2014-10-24","Monthly_Cost":"70000","Stitching":"70000","Cutting":"70000","Assebmly":"70000"}',
+ 'report_name': u'Production Cost Analytics'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 11, in execute
+    columns = get_columns()
+ TypeError: get_production_data() takes exactly 1 argument (0 given)
+
+--------------
+
+2014-10-24 09:43:59,045 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-09-01","to_date":"2014-10-24","Monthly_Cost":"70000","Stitching":"70000","Cutting":"70000","Assebmly":"70000"}',
+ 'report_name': u'Production Cost Analytics'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 11, in execute
+    validate_filters(filters)
+ TypeError: get_production_data() takes exactly 1 argument (0 given)
+
+--------------
+
+2014-10-24 09:44:00,777 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-09-01","to_date":"2014-10-24","Monthly_Cost":"70000","Stitching":"70000","Cutting":"70000","Assebmly":"70000"}',
+ 'report_name': u'Production Cost Analytics'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 9, in execute
+    def execute(filters):
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 30, in get_columns
+    frappe.throw("From Date must be before To Date")
+ NameError: global name '_' is not defined
+
+--------------
+
+2014-10-24 09:44:50,472 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-09-01","to_date":"2014-10-24","Monthly_Cost":"70000","Stitching":"70000","Cutting":"70000","Assebmly":"70000"}',
+ 'report_name': u'Production Cost Analytics'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 9, in execute
+    def execute(filters):
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 30, in get_columns
+    frappe.throw(_("From Date must be before To Date"))
+ NameError: global name '_' is not defined
+
+--------------
+
+2014-10-24 09:44:53,786 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-09-01","to_date":"2014-10-24","Monthly_Cost":"70000","Stitching":"70000","Cutting":"70000","Assebmly":"70000"}',
+ 'report_name': u'Production Cost Analytics'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 9, in execute
+    def execute(filters):
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 30, in get_columns
+    frappe.throw(_("From Date must be before To Date"))
+ NameError: global name '_' is not defined
+
+--------------
+
+2014-10-24 09:47:03,416 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-09-01","to_date":"2014-10-24","Monthly_Cost":"70000","Stitching":"70000","Cutting":"70000","Assebmly":"70000"}',
+ 'report_name': u'Production Cost Analytics'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 11, in execute
+    validate_filters(filters)
+ TypeError: get_production_data() takes exactly 1 argument (0 given)
+
+--------------
+
+2014-10-24 09:47:07,794 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-09-01","to_date":"2014-10-24","Monthly_Cost":"70000","Stitching":"70000","Cutting":"70000","Assebmly":"70000"}',
+ 'report_name': u'Production Cost Analytics'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 9, in execute
+    def execute(filters):
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 30, in get_columns
+    frappe.throw(_("From Date must be before To Date"))
+ NameError: global name '_' is not defined
+
+--------------
+
+2014-10-24 09:47:54,753 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-09-01","to_date":"2014-10-24","Monthly_Cost":"70000","Stitching":"70000","Cutting":"70000","Assebmly":"70000"}',
+ 'report_name': u'Production Cost Analytics'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 11, in execute
+    validate_filters(filters)
+ TypeError: get_production_data() takes exactly 1 argument (0 given)
+
+--------------
+
+2014-10-24 09:48:22,428 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-09-01","to_date":"2014-10-24","Monthly_Cost":"70000","Stitching":"70000","Cutting":"70000","Assebmly":"70000"}',
+ 'report_name': u'Production Cost Analytics'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 11, in execute
+    #validate_filters(filters)
+ TypeError: get_production_data() takes exactly 1 argument (0 given)
+
+--------------
+
+2014-10-24 09:49:05,294 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-09-01","to_date":"2014-10-24","Monthly_Cost":"70000","Stitching":"70000","Cutting":"70000","Assebmly":"70000"}',
+ 'report_name': u'Production Cost Analytics'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 9, in execute
+    def execute(filters=None):
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 30, in get_columns
+    frappe.throw(_("From Date must be before To Date"))
+ NameError: global name '_' is not defined
+
+--------------
+
+2014-10-24 09:49:28,655 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-09-01","to_date":"2014-10-24","Monthly_Cost":"70000","Stitching":"70000","Cutting":"70000","Assebmly":"70000"}',
+ 'report_name': u'Production Cost Analytics'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 11, in execute
+    columns = get_columns()
+ TypeError: get_production_data() takes exactly 1 argument (0 given)
+
+--------------
+
+2014-10-24 09:50:55,617 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-09-01","to_date":"2014-10-24","Monthly_Cost":"70000","Stitching":"70000","Cutting":"70000","Assebmly":"70000"}',
+ 'report_name': u'Production Cost Analytics'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 11, in execute
+    columns = get_columns()
+ TypeError: get_production_data() takes exactly 1 argument (0 given)
+
+--------------
+
+2014-10-24 09:54:03,807 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-09-01","to_date":"2014-10-24","Monthly_Cost":"70000","Stitching":"70000","Cutting":"70000","Assebmly":"70000"}',
+ 'report_name': u'Production Cost Analytics'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 9, in execute
+    def execute(filters=None):
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 30, in get_columns
+    temp=data.produced_qty*(filter.Assembly/totalQtyAssembly)
+ NameError: global name '_' is not defined
+
+--------------
+
+2014-10-24 09:54:49,782 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-09-01","to_date":"2014-10-24","Monthly_Cost":"70000","Stitching":"70000","Cutting":"70000","Assebmly":"70000"}',
+ 'report_name': u'Production Cost Analytics'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 9, in execute
+    def execute(filters=None):
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 30, in get_columns
+    temp=data.produced_qty*filter.Assembly/totalQtyAssembly
+ NameError: global name '_' is not defined
+
+--------------
+
+2014-10-24 09:55:32,280 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-09-01","to_date":"2014-10-24","Monthly_Cost":"70000","Stitching":"70000","Cutting":"70000","Assebmly":"70000"}',
+ 'report_name': u'Production Cost Analytics'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 11, in execute
+    columns = ["Production time:Date:100", "Production:Link/Production Order:200", "To Be Produced:Int:100", "Produced:Int:100", "Total Bahan:Float:100","Total Produksi:Float:100","Total Est Cost:Float:100","Cost Production:Float:100","Cost Monthly:Float:100"]
+ TypeError: get_production_data() takes exactly 1 argument (0 given)
+
+--------------
+
+2014-10-24 09:56:08,181 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-09-01","to_date":"2014-10-24","Monthly_Cost":"70000","Stitching":"70000","Cutting":"70000","Assebmly":"70000"}',
+ 'report_name': u'Production Cost Analytics'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 9, in execute
+    def execute(filters=None):
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 30, in get_columns
+    temp=data.produced_qty*filter.Assembly/totalQtyAssembly
+ NameError: global name '_' is not defined
+
+--------------
+
+2014-10-24 09:57:45,072 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-09-01","to_date":"2014-10-24","Monthly_Cost":"70000","Stitching":"70000","Cutting":"70000","Assebmly":"70000"}',
+ 'report_name': u'Production Cost Analytics'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 9, in execute
+    def execute(filters=None):
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 30, in get_columns
+    temp=data.produced_qty*filter.Assembly/totalQtyAssembly
+ NameError: global name '_' is not defined
+
+--------------
+
+2014-10-24 09:58:11,783 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-09-24","to_date":"2014-10-24","Monthly_Cost":"70000","Stitching":"70000","Cutting":"70000","Assebmly":"70000"}',
+ 'report_name': u'Production Cost Analytics'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 9, in execute
+    def execute(filters=None):
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 30, in get_columns
+    temp=data.produced_qty*filter.Assembly/totalQtyAssembly
+ NameError: global name '_' is not defined
+
+--------------
+
+2014-10-24 09:58:11,862 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-09-24","to_date":"2014-10-24","Monthly_Cost":"70000","Stitching":"70000","Cutting":"70000","Assebmly":"70000"}',
+ 'report_name': u'Production Cost Analytics'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 11, in execute
+    columns = ["Production time:Date:100", "Production:Link/Production Order:200", "To Be Produced:Int:100", "Produced:Int:100", "Total Bahan:Float:100","Total Produksi:Float:100","Total Est Cost:Float:100","Cost Production:Float:100","Cost Monthly:Float:100"]
+ TypeError: get_production_data() takes exactly 1 argument (0 given)
+
+--------------
+
+2014-10-24 10:01:00,325 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-09-24","to_date":"2014-10-24","Monthly_Cost":"70000","Stitching":"70000","Cutting":"70000","Assebmly":"70000"}',
+ 'report_name': u'Production Cost Analytics'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 18, in execute
+    if data.category=="Stitching" :
+ AttributeError: 'tuple' object has no attribute 'category'
+
+--------------
+
+2014-10-24 10:13:06,194 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-09-24","to_date":"2014-10-24","Monthly_Cost":"70000","Stitching":"70000","Cutting":"70000","Assebmly":"70000"}',
+ 'report_name': u'Production Cost Analytics'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 18, in execute
+    if data.category=="Stitching" :
+ AttributeError: 'tuple' object has no attribute 'category'
+
+--------------
+
+2014-10-24 10:23:34,388 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-09-24","to_date":"2014-10-24","Monthly_Cost":"70000","Stitching":"70000","Cutting":"70000","Assebmly":"70000"}',
+ 'report_name': u'Production Cost Analytics'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 18, in execute
+    if data.category=="Stitching" :
+ AttributeError: 'tuple' object has no attribute 'category'
+
+--------------
+
+2014-10-24 10:25:44,821 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-09-24","to_date":"2014-10-24","Monthly_Cost":"70000","Stitching":"70000","Cutting":"70000","Assebmly":"70000"}',
+ 'report_name': u'Production Cost Analytics'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 18, in execute
+    if data.category=="Stitching" :
+ AttributeError: 'tuple' object has no attribute 'category'
+
+--------------
+
+2014-10-24 10:27:29,626 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-09-24","to_date":"2014-10-24","Monthly_Cost":"70000","Stitching":"70000","Cutting":"70000","Assebmly":"70000"}',
+ 'report_name': u'Production Cost Analytics'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 18, in execute
+    if data.category=="Stitching" :
+ AttributeError: 'tuple' object has no attribute 'category'
+
+--------------
+
+2014-10-24 10:28:27,077 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-09-24","to_date":"2014-10-24","Monthly_Cost":"70000","Stitching":"70000","Cutting":"70000","Assebmly":"70000"}',
+ 'report_name': u'Production Cost Analytics'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 18, in execute
+    frappe.throw(_("Cost must not in negative value"))
+ AttributeError: 'tuple' object has no attribute 'category'
+
+--------------
+
+2014-10-24 10:43:56,481 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-09-24","to_date":"2014-10-24","Monthly_Cost":"70000","Stitching":"70000","Cutting":"70000","Assebmly":"70000"}',
+ 'report_name': u'Production Cost Analytics'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 13, in execute
+    data = get_production_data(filters)
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 43, in get_production_data
+    if data.get("category")=="Stitching" :
+ AttributeError: 'tuple' object has no attribute 'get'
+
+--------------
+
+2014-10-24 10:43:56,528 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-09-24","to_date":"2014-10-24","Monthly_Cost":"70000","Stitching":"70000","Cutting":"70000","Assebmly":"70000"}',
+ 'report_name': u'Production Cost Analytics'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 13, in execute
+    data = get_production_data(filters)
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 43, in get_production_data
+    if data.get("category")=="Stitching" :
+ AttributeError: 'tuple' object has no attribute 'get'
+
+--------------
+
+2014-10-24 10:50:33,518 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-09-24","to_date":"2014-10-24","Monthly_Cost":"70000","Stitching":"70000","Cutting":"70000","Assebmly":"70000"}',
+ 'report_name': u'Production Cost Analytics'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 13, in execute
+    data = get_production_data(filters)
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 55, in get_production_data
+    temp=data.get("produced_qty")*(filter.Assembly/totalQtyAssembly)
+ AttributeError: 'builtin_function_or_method' object has no attribute 'Assembly'
+
+--------------
+
+2014-10-24 10:54:05,530 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-09-24","to_date":"2014-10-24","Monthly_Cost":"70000","Stitching":"70000","Cutting":"70000","Assebmly":"70000"}',
+ 'report_name': u'Production Cost Analytics'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 13, in execute
+    data = get_production_data(filters)
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 55, in get_production_data
+    temp=data.get("produced_qty")*(filter.Assembly/totalQtyAssembly)
+ AttributeError: 'builtin_function_or_method' object has no attribute 'Assembly'
+
+--------------
+
+2014-10-24 10:54:27,638 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-09-24","to_date":"2014-10-24","Monthly_Cost":"70000","Stitching":"70000","Cutting":"70000","Assembly":"70000"}',
+ 'report_name': u'Production Cost Analytics'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 13, in execute
+    data = get_production_data(filters)
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 55, in get_production_data
+    temp=data.get("produced_qty")*(filter.Assembly/totalQtyAssembly)
+ AttributeError: 'builtin_function_or_method' object has no attribute 'Assembly'
+
+--------------
+
+2014-10-24 10:54:27,737 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-09-24","to_date":"2014-10-24","Monthly_Cost":"70000","Stitching":"70000","Cutting":"70000","Assembly":"70000"}',
+ 'report_name': u'Production Cost Analytics'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 13, in execute
+    data = get_production_data(filters)
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 55, in get_production_data
+    temp=data.get("produced_qty")*(filter.Assembly/totalQtyAssembly)
+ AttributeError: 'builtin_function_or_method' object has no attribute 'Assembly'
+
+--------------
+
+2014-10-24 10:55:33,459 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-09-24","to_date":"2014-10-24","Monthly_Cost":"70000","Stitching":"70000","Cutting":"70000","Assembly":"70000"}',
+ 'report_name': u'Production Cost Analytics'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 13, in execute
+    data = get_production_data(filters)
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 55, in get_production_data
+    temp=data.get("produced_qty")*(filter.Assembly/totalQtyAssembly)
+ AttributeError: 'builtin_function_or_method' object has no attribute 'Assembly'
+
+--------------
+
+2014-10-24 10:58:34,529 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-09-24","to_date":"2014-10-24","Monthly_Cost":"70000","Stitching":"70000","Cutting":"70000","Assembly":"70000"}',
+ 'report_name': u'Production Cost Analytics'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 13, in execute
+    data = get_production_data(filters)
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 55, in get_production_data
+    temp=data.get("produced_qty")*(filter.get("Assembly")/totalQtyAssembly)
+ AttributeError: 'builtin_function_or_method' object has no attribute 'get'
+
+--------------
+
+2014-10-24 11:01:55,614 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-09-24","to_date":"2014-10-24","Monthly_Cost":"70000","Stitching":"70000","Cutting":"70000","Assembly":"70000"}',
+ 'report_name': u'Production Cost Analytics'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 13, in execute
+    data = get_production_data(filters)
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 55, in get_production_data
+    temp=data.get("produced_qty")*(filters.get("Assembly")/totalQtyAssembly)
+ TypeError: unsupported operand type(s) for /: 'unicode' and 'float'
+
+--------------
+
+2014-10-24 11:13:41,471 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-09-24","to_date":"2014-10-24","Monthly_Cost":"70000","Stitching":"70000","Cutting":"70000","Assembly":"70000"}',
+ 'report_name': u'Production Cost Analytics'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 13, in execute
+    data = get_production_data(filters)
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 58, in get_production_data
+    result.append([data.get("name"),data.get("qty"),data.get("produced_qty"),data.get("bahan"),data.get("HPP"),(data.get("HPP")-data.get("bahan")),temp,data.produced_qty*(filters.get("Monthly_Cost")/total)])
+ TypeError: unsupported operand type(s) for /: 'unicode' and 'float'
+
+--------------
+
+2014-10-24 11:13:49,804 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-09-24","to_date":"2014-10-24","Monthly_Cost":"70000","Stitching":"70000","Cutting":"70000","Assembly":"70000"}',
+ 'report_name': u'Production Cost Analytics'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 13, in execute
+    data = get_production_data(filters)
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 58, in get_production_data
+    result.append([data.get("name"),data.get("qty"),data.get("produced_qty"),data.get("bahan"),data.get("HPP"),(data.get("HPP")-data.get("bahan")),temp,data.produced_qty*(filters.get("Monthly_Cost")/total)])
+ TypeError: unsupported operand type(s) for /: 'unicode' and 'float'
+
+--------------
+
+2014-10-26 08:09:37,061 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-09-03","to_date":"2014-10-26","Monthly_Cost":"70000","Stitching":"70000","Cutting":"70000","Assembly":"70000"}',
+ 'report_name': u'Production Cost Analytics'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 13, in execute
+    data = get_production_data(filters)
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_analytics/production_cost_analytics.py", line 55, in get_production_data
+    temp=float(data.get("produced_qty"))*(float(filters.get("Assembly"))/totalQtyAssembly)
+ ZeroDivisionError: float division by zero
+
+--------------
+
+2014-11-02 01:44:37,094 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-10-02","to_date":"2014-11-02"}',
+ 'report_name': u'Production Cost against time logs'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 519, in get_attr
+    return getattr(get_module(modulename), methodname)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 379, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_against_time_logs/production_cost_against_time_logs.py", line 96
+    i++
+      ^
+ SyntaxError: invalid syntax
+
+--------------
+
+2014-11-02 01:51:54,019 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-10-02","to_date":"2014-11-02"}',
+ 'report_name': u'Production Cost against time logs'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_against_time_logs/production_cost_against_time_logs.py", line 13, in execute
+    data = get_data_result(get_production_data(filters),get_work_timelog_data(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_against_time_logs/production_cost_against_time_logs.py", line 120, in get_work_timelog_data
+    timelog_data = frappe.db.sql("""SELECT Year(date) as "year",DAYOFYEAR(date) as "tgl",date, sum(worker) as "people", sum(total_hours) as "hours" , sum(total_payment) as "payment" , activity_type from `tabTime Log` where docstatus=1 and posting_date between %(from_date)s and %(to_date)s group by activity_type,DAYOFYEAR(date) order by activity_type,date)asc""",filters,as_dict=1)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/database.py", line 110, in sql
+    self._cursor.execute(query, values)
+  File "/home/sigma/frappe-bench/env/local/lib/python2.7/site-packages/MySQLdb/cursors.py", line 205, in execute
+    self.errorhandler(self, exc, value)
+  File "/home/sigma/frappe-bench/env/local/lib/python2.7/site-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+ ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')asc' at line 1")
+
+--------------
+
+2014-11-02 01:52:53,217 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-10-02","to_date":"2014-11-02"}',
+ 'report_name': u'Production Cost against time logs'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_against_time_logs/production_cost_against_time_logs.py", line 13, in execute
+    data = get_data_result(get_production_data(filters),get_work_timelog_data(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_against_time_logs/production_cost_against_time_logs.py", line 120, in get_work_timelog_data
+    timelog_data = frappe.db.sql("""SELECT Year(date) as "year",DAYOFYEAR(date) as "tgl",date, sum(worker) as "people", sum(total_hours) as "hours" , sum(total_payment) as "payment" , activity_type from `tabTime Log` where docstatus=1 and posting_date between %(from_date)s and %(to_date)s group by activity_type,DAYOFYEAR(date) order by activity_type,date""",filters,as_dict=1)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/database.py", line 110, in sql
+    self._cursor.execute(query, values)
+  File "/home/sigma/frappe-bench/env/local/lib/python2.7/site-packages/MySQLdb/cursors.py", line 205, in execute
+    self.errorhandler(self, exc, value)
+  File "/home/sigma/frappe-bench/env/local/lib/python2.7/site-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+ OperationalError: (1054, "Unknown column 'posting_date' in 'where clause'")
+
+--------------
+
+2014-11-02 02:08:06,795 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-10-02","to_date":"2014-11-02"}',
+ 'report_name': u'Production Cost against time logs'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_against_time_logs/production_cost_against_time_logs.py", line 13, in execute
+    data = get_data_result(get_production_data(filters),get_work_timelog_data(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_against_time_logs/production_cost_against_time_logs.py", line 52, in get_data_result
+    logging.debug(time);
+ NameError: global name 'logging' is not defined
+
+--------------
+
+2014-11-02 02:31:00,946 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-10-02","to_date":"2014-11-02"}',
+ 'report_name': u'Production Cost against time logs'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_against_time_logs/production_cost_against_time_logs.py", line 13, in execute
+    data = get_data_result(get_production_data(filters),get_work_timelog_data(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_against_time_logs/production_cost_against_time_logs.py", line 52, in get_data_result
+    frappe.throw(_("%s",time))
+ TypeError: _() takes exactly 1 argument (2 given)
+
+--------------
+
+2014-11-02 02:51:42,073 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-10-02","to_date":"2014-11-02"}',
+ 'report_name': u'Production Cost against time logs'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_against_time_logs/production_cost_against_time_logs.py", line 13, in execute
+    data = get_data_result(get_production_data(filters),get_work_timelog_data(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_against_time_logs/production_cost_against_time_logs.py", line 37, in get_data_result
+    str+="a"
+ UnboundLocalError: local variable 'str' referenced before assignment
+
+--------------
+
+2014-11-02 03:44:08,762 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-10-02","to_date":"2014-11-02"}',
+ 'report_name': u'Production Cost against time logs'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 519, in get_attr
+    return getattr(get_module(modulename), methodname)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 379, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_against_time_logs/production_cost_against_time_logs.py", line 131
+    while bool(flag)&&i<len(time):
+                     ^
+ SyntaxError: invalid syntax
+
+--------------
+
+2014-11-02 04:06:11,370 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-10-02","to_date":"2014-11-02"}',
+ 'report_name': u'Production Cost against time logs'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_against_time_logs/production_cost_against_time_logs.py", line 13, in execute
+    data = get_data_result(get_production_data(filters),get_work_timelog_data(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_against_time_logs/production_cost_against_time_logs.py", line 130, in get_data_result
+    result.append([row[0],time[i][2],row[1],time[i][3],cHours,cPayment,float(cPayment)/float(row[1]),row[2],time[i][6],sHours,sPayment,float(sPayment)/float(row[2]),row[3],time[i][9],aHours,aPayment,float(aPayment)/float(row[3])])
+ IndexError: list index out of range
+
+--------------
+
+2014-11-02 04:17:16,106 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-10-02","to_date":"2014-11-02"}',
+ 'report_name': u'Production Cost against time logs'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 519, in get_attr
+    return getattr(get_module(modulename), methodname)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 379, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_against_time_logs/production_cost_against_time_logs.py", line 112
+    else if time[i][0]>year or time[i][1]>dateofyear:
+          ^
+ SyntaxError: invalid syntax
+
+--------------
+
+2014-11-02 04:19:17,486 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-10-02","to_date":"2014-11-02"}',
+ 'report_name': u'Production Cost against time logs'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_against_time_logs/production_cost_against_time_logs.py", line 13, in execute
+    data = get_data_result(get_production_data(filters),get_work_timelog_data(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_against_time_logs/production_cost_against_time_logs.py", line 132, in get_data_result
+    result.append([row[0],time[i][2],row[1],time[i][3],cHours,cPayment,float(cPayment)/float(row[1]),row[2],time[i][6],sHours,sPayment,float(sPayment)/float(row[2]),row[3],time[i][9],aHours,aPayment,float(aPayment)/float(row[3])])
+ ZeroDivisionError: float division by zero
+
+--------------
+
+2014-11-02 04:26:10,436 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-10-02","to_date":"2014-11-02"}',
+ 'report_name': u'Production Cost against time logs'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_against_time_logs/production_cost_against_time_logs.py", line 13, in execute
+    data = get_data_result(get_production_data(filters),get_work_timelog_data(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_against_time_logs/production_cost_against_time_logs.py", line 137, in get_data_result
+    result.append([row[0],time[i][2],row[1],time[i][3],cHours,cPayment,cAvg,row[2],time[i][6],sHours,sPayment,float(sPayment)/float(row[2]),row[3],time[i][9],aHours,aPayment,float(aPayment)/float(row[3])])
+ ZeroDivisionError: float division by zero
+
+--------------
+
+2014-11-02 21:54:11,956 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-10-03","to_date":"2014-11-03"}',
+ 'report_name': u'Production Cost against time logs'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_against_time_logs/production_cost_against_time_logs.py", line 13, in execute
+    data = get_data_result(get_production_data(filters),get_work_timelog_data(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_against_time_logs/production_cost_against_time_logs.py", line 189, in get_data_result
+    result.append([row[0],time[i][2],row[1],time[i][3],cHours,cPayment,float(cPayment)/float(row[1]),row[2],time[i][6],sHours,sPayment,float(sPayment)/float(row[2]),row[3],time[i][9],aHours,aPayment,float(aPayment)/float(row[3])])
+ ZeroDivisionError: float division by zero
+
+--------------
+
+2014-11-02 21:57:25,161 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-10-03","to_date":"2014-11-03"}',
+ 'report_name': u'Production Cost against time logs'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_against_time_logs/production_cost_against_time_logs.py", line 13, in execute
+    data = get_data_result(get_production_data(filters),get_work_timelog_data(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_against_time_logs/production_cost_against_time_logs.py", line 193, in get_data_result
+    result.append([row[0],time[i][2],row[1],time[i][3],cHours,cPayment,float(cPayment)/float(row[1]),row[2],time[i][6],sHours,sPayment,float(sPayment)/float(row[2]),row[3],time[i][9],aHours,aPayment,float(aPayment)/float(row[3])])
+ ZeroDivisionError: float division by zero
+
+--------------
+
+2014-11-02 21:57:39,210 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-10-03","to_date":"2014-11-03"}',
+ 'report_name': u'Production Cost against time logs'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_against_time_logs/production_cost_against_time_logs.py", line 13, in execute
+    data = get_data_result(get_production_data(filters),get_work_timelog_data(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_against_time_logs/production_cost_against_time_logs.py", line 193, in get_data_result
+    result.append([row[0],time[i][2],row[1],time[i][3],cHours,cPayment,float(cPayment)/float(row[1]),row[2],time[i][6],sHours,sPayment,float(sPayment)/float(row[2]),row[3],time[i][9],aHours,aPayment,float(aPayment)/float(row[3])])
+ ZeroDivisionError: float division by zero
+
+--------------
+
+2014-11-03 05:58:01,161 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-10-03","to_date":"2014-11-03"}',
+ 'report_name': u'Production Cost against time logs'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_against_time_logs/production_cost_against_time_logs.py", line 13, in execute
+    data = get_data_result(get_production_data(filters),get_work_timelog_data(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_against_time_logs/production_cost_against_time_logs.py", line 196, in get_data_result
+    result.append([row[0],row[4],row[1],time[i][3],cHours,cPayment,cAvg,row[2],time[i][6],sHours,sPayment,sAvg,row[3],time[i][9],aHours,aPayment,aAvg])
+ IndexError: list index out of range
+
+--------------
+
+2014-11-06 11:33:16,184 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-10-06","to_date":"2014-11-06"}',
+ 'report_name': u'Production Cost against time logs'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_against_time_logs/production_cost_against_time_logs.py", line 13, in execute
+    data = get_data_result(get_production_data(filters),get_work_timelog_data(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_against_time_logs/production_cost_against_time_logs.py", line 160, in get_data_result
+    console.log(spk)
+ NameError: global name 'console' is not defined
+
+--------------
+
+2014-11-10 00:35:40,091 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{}',
+ 'report_name': u'Production Cost by SPK'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_by_spk/production_cost_by_spk.py", line 13, in execute
+    data = get_data_result(get_production_data(filters),get_work_timelog_data(filters),filters)
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_by_spk/production_cost_by_spk.py", line 212, in get_production_data
+    production_data = frappe.db.sql("""SELECT Year(STE.posting_date) as "year",DAYOFYEAR(STE.posting_date) as "tgl",prod.kode_spk,prod.category,prod.production_item,prod.name ,SUM(IF(STD.s_warehouse is NULL,1,0)*STD.qty) as "produced_qty",STE.posting_date , sum(IF(STD.t_warehouse is NULL,IF(i.is_manufactured_item="no",1,0),0)*STD.amount) as "bahan" FROM `tabProduction Order` prod JOIN `tabStock Entry` STE on STE.production_order=prod.name JOIN `tabStock Entry Detail` STD on STD.parent=STE.name JOIN tabItem i ON STD.item_code=i.name WHERE  prod.docstatus=1 and STE.docstatus=1 and STD.docstatus=1 and STE.posting_date between %(from_date)s and %(to_date)s group by STE.posting_date,prod.category order by STE.posting_date,prod.kode_spk,prod.category""",filters,as_dict=1)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/database.py", line 110, in sql
+    self._cursor.execute(query, values)
+  File "/home/sigma/frappe-bench/env/local/lib/python2.7/site-packages/MySQLdb/cursors.py", line 185, in execute
+    for key, item in args.iteritems())
+ KeyError: 'from_date'
+
+--------------
+
+2014-11-10 00:41:26,582 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-10-10","to_date":"2014-11-10","Monthly Cost":"200000"}',
+ 'report_name': u'Production Cost by SPK'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_by_spk/production_cost_by_spk.py", line 13, in execute
+    data = get_data_result(get_production_data(filters),get_work_timelog_data(filters),filters)
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_by_spk/production_cost_by_spk.py", line 194, in get_data_result
+    tempdata[set[0]]["prod"]+=set[1]
+ KeyError: u'GW001'
+
+--------------
+
+2014-11-10 00:50:37,153 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-10-10","to_date":"2014-11-10","Monthly Cost":"200000"}',
+ 'report_name': u'Production Cost by SPK'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_by_spk/production_cost_by_spk.py", line 13, in execute
+    data = get_data_result(get_production_data(filters),get_work_timelog_data(filters),filters)
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_by_spk/production_cost_by_spk.py", line 189, in get_data_result
+    arr=tempdata[set[0]]
+ KeyError: u'GW001'
+
+--------------
+
+2014-11-10 00:54:14,334 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-10-10","to_date":"2014-11-10","Monthly Cost":"200000"}',
+ 'report_name': u'Production Cost by SPK'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_by_spk/production_cost_by_spk.py", line 13, in execute
+    data = get_data_result(get_production_data(filters),get_work_timelog_data(filters),filters)
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_by_spk/production_cost_by_spk.py", line 190, in get_data_result
+    arr[1]+=set[1]
+ TypeError: 'NoneType' object has no attribute '__getitem__'
+
+--------------
+
+2014-11-10 00:54:14,364 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-10-10","to_date":"2014-11-10","Monthly Cost":"200000"}',
+ 'report_name': u'Production Cost by SPK'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_by_spk/production_cost_by_spk.py", line 13, in execute
+    data = get_data_result(get_production_data(filters),get_work_timelog_data(filters),filters)
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_by_spk/production_cost_by_spk.py", line 190, in get_data_result
+    arr[1]+=set[1]
+ TypeError: 'NoneType' object has no attribute '__getitem__'
+
+--------------
+
+2014-11-10 00:57:39,989 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-10-10","to_date":"2014-11-10","Monthly Cost":"200000"}',
+ 'report_name': u'Production Cost by SPK'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_by_spk/production_cost_by_spk.py", line 13, in execute
+    data = get_data_result(get_production_data(filters),get_work_timelog_data(filters),filters)
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_by_spk/production_cost_by_spk.py", line 191, in get_data_result
+    arr[1]+=set[1]
+ TypeError: 'NoneType' object has no attribute '__getitem__'
+
+--------------
+
+2014-11-10 00:57:44,867 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-10-10","to_date":"2014-11-10","Monthly Cost":"200000"}',
+ 'report_name': u'Production Cost by SPK'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_by_spk/production_cost_by_spk.py", line 13, in execute
+    data = get_data_result(get_production_data(filters),get_work_timelog_data(filters),filters)
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_by_spk/production_cost_by_spk.py", line 191, in get_data_result
+    arr[1]+=set[1]
+ TypeError: 'NoneType' object has no attribute '__getitem__'
+
+--------------
+
+2014-11-10 01:09:15,104 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-10-10","to_date":"2014-11-10","Monthly Cost":"200000"}',
+ 'report_name': u'Production Cost by SPK'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_by_spk/production_cost_by_spk.py", line 13, in execute
+    data = get_data_result(get_production_data(filters),get_work_timelog_data(filters),filters)
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_by_spk/production_cost_by_spk.py", line 195, in get_data_result
+    realdata[pos][1]+=set[1]
+ TypeError: list indices must be integers, not NoneType
+
+--------------
+
+2014-11-10 01:20:10,526 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-10-10","to_date":"2014-11-10","Monthly Cost":"200000"}',
+ 'report_name': u'Production Cost by SPK'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_by_spk/production_cost_by_spk.py", line 13, in execute
+    data = get_data_result(get_production_data(filters),get_work_timelog_data(filters),filters)
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_by_spk/production_cost_by_spk.py", line 196, in get_data_result
+    frape.throw(pos+str(tempdata))
+ NameError: global name 'frape' is not defined
+
+--------------
+
+2014-11-10 01:20:43,826 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-10-10","to_date":"2014-11-10","Monthly Cost":"200000"}',
+ 'report_name': u'Production Cost by SPK'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_by_spk/production_cost_by_spk.py", line 13, in execute
+    data = get_data_result(get_production_data(filters),get_work_timelog_data(filters),filters)
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_by_spk/production_cost_by_spk.py", line 196, in get_data_result
+    frappe.throw(pos+str(tempdata))
+ TypeError: 'unicode' object is not callable
+
+--------------
+
+2014-11-10 01:23:42,613 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-10-10","to_date":"2014-11-10","Monthly Cost":"200000"}',
+ 'report_name': u'Production Cost by SPK'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_by_spk/production_cost_by_spk.py", line 13, in execute
+    data = get_data_result(get_production_data(filters),get_work_timelog_data(filters),filters)
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_by_spk/production_cost_by_spk.py", line 196, in get_data_result
+    frappe.throw(str(tempdata))
+ TypeError: 'unicode' object is not callable
+
+--------------
+
+2014-11-10 01:23:42,676 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-10-10","to_date":"2014-11-10","Monthly Cost":"200000"}',
+ 'report_name': u'Production Cost by SPK'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_by_spk/production_cost_by_spk.py", line 13, in execute
+    data = get_data_result(get_production_data(filters),get_work_timelog_data(filters),filters)
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_by_spk/production_cost_by_spk.py", line 196, in get_data_result
+    frappe.throw(str(tempdata))
+ TypeError: 'unicode' object is not callable
+
+--------------
+
+2014-11-10 01:51:11,904 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-10-10","to_date":"2014-11-10","Monthly Cost":"200000"}',
+ 'report_name': u'Production Cost by SPK'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_by_spk/production_cost_by_spk.py", line 13, in execute
+    data = get_data_result(get_production_data(filters),get_work_timelog_data(filters),filters)
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_by_spk/production_cost_by_spk.py", line 207, in get_data_result
+    realdata[pos]=[set[0],0,0,0,0,0]
+ IndexError: list assignment index out of range
+
+--------------
+
+2014-11-10 01:52:00,075 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-10-10","to_date":"2014-11-10","Monthly Cost":"200000"}',
+ 'report_name': u'Production Cost by SPK'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 519, in get_attr
+    return getattr(get_module(modulename), methodname)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 379, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_by_spk/production_cost_by_spk.py", line 207
+    realdata[pos][]=[set[0],0,0,0,0,0]
+                  ^
+ SyntaxError: invalid syntax
+
+--------------
+
+2014-11-10 01:52:01,296 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-10-10","to_date":"2014-11-10","Monthly Cost":"200000"}',
+ 'report_name': u'Production Cost by SPK'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 519, in get_attr
+    return getattr(get_module(modulename), methodname)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 379, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_by_spk/production_cost_by_spk.py", line 207
+    realdata[pos][]=[set[0],0,0,0,0,0]
+                  ^
+ SyntaxError: invalid syntax
+
+--------------
+
+2014-11-10 01:53:07,036 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-10-10","to_date":"2014-11-10","Monthly Cost":"200000"}',
+ 'report_name': u'Production Cost by SPK'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_by_spk/production_cost_by_spk.py", line 13, in execute
+    data = get_data_result(get_production_data(filters),get_work_timelog_data(filters),filters)
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_by_spk/production_cost_by_spk.py", line 211, in get_data_result
+    realdata[pos][5]+=(realdata[pos][1]/totalQty)*monthly
+ TypeError: unsupported operand type(s) for *: 'float' and 'NoneType'
+
+--------------
+
+2014-11-10 01:54:50,601 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.query_report.run',
+ 'filters': u'{"from_date":"2014-10-10","to_date":"2014-11-10","Monthly Cost":"200000"}',
+ 'report_name': u'Production Cost by SPK'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/query_report.py", line 87, in run
+    columns, result = frappe.get_attr(method_name)(frappe._dict(filters))
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_by_spk/production_cost_by_spk.py", line 13, in execute
+    data = get_data_result(get_production_data(filters),get_work_timelog_data(filters),filters)
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/report/production_cost_by_spk/production_cost_by_spk.py", line 199, in get_data_result
+    if s[0]==set[0]:
+ NameError: global name 's' is not defined
+
+--------------
+
+2014-11-21 00:36:15,228 Request Error 
+ site: 128.199.253.52
+ form: {'cached_timestamp': u'',
+ 'cmd': u'frappe.widgets.form.load.getdoctype',
+ 'with_parent': u'1'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+ TypeError: getdoctype() takes at least 1 argument (2 given)
+
+--------------
+
+2014-11-24 05:05:02,230 Request Error 
+ site: 128.199.253.52
+ form: {'cached_timestamp': u'',
+ 'cmd': u'frappe.widgets.form.load.getdoctype',
+ 'doctype': u'Production Actual Cost',
+ 'with_parent': u'1'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/load.py", line 62, in getdoctype
+    docs = get_meta_bundle(doctype)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/load.py", line 72, in get_meta_bundle
+    bundle = [frappe.widgets.form.meta.get_meta(doctype)]
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/meta.py", line 19, in get_meta
+    meta = frappe.cache().get_value("form_meta:" + doctype, lambda: FormMeta(doctype))
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/memc.py", line 21, in get_value
+    val = builder()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/meta.py", line 19, in <lambda>
+    meta = frappe.cache().get_value("form_meta:" + doctype, lambda: FormMeta(doctype))
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/meta.py", line 31, in __init__
+    self.load_assets()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/meta.py", line 41, in load_assets
+    self.load_templates()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/meta.py", line 160, in load_templates
+    module = load_doctype_module(self.name)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/modules/__init__.py", line 58, in load_doctype_module
+    doctype_python_modules[key] = frappe.get_module(get_module_name(doctype, module, prefix))
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 379, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/doctype/production_actual_cost/production_actual_cost.py", line 195
+    def generate_monthly_cost(data,monthlyCost,totalQty,doc):
+                                                            ^
+ IndentationError: unindent does not match any outer indentation level
+
+--------------
+
+2014-11-24 05:05:20,578 Request Error 
+ site: 128.199.253.52
+ form: {'cached_timestamp': u'',
+ 'cmd': u'frappe.widgets.form.load.getdoctype',
+ 'doctype': u'Production Actual Cost',
+ 'with_parent': u'1'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/load.py", line 62, in getdoctype
+    docs = get_meta_bundle(doctype)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/load.py", line 72, in get_meta_bundle
+    bundle = [frappe.widgets.form.meta.get_meta(doctype)]
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/meta.py", line 19, in get_meta
+    meta = frappe.cache().get_value("form_meta:" + doctype, lambda: FormMeta(doctype))
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/memc.py", line 21, in get_value
+    val = builder()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/meta.py", line 19, in <lambda>
+    meta = frappe.cache().get_value("form_meta:" + doctype, lambda: FormMeta(doctype))
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/meta.py", line 31, in __init__
+    self.load_assets()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/meta.py", line 41, in load_assets
+    self.load_templates()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/meta.py", line 160, in load_templates
+    module = load_doctype_module(self.name)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/modules/__init__.py", line 58, in load_doctype_module
+    doctype_python_modules[key] = frappe.get_module(get_module_name(doctype, module, prefix))
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 379, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/doctype/production_actual_cost/production_actual_cost.py", line 195
+    def generate_monthly_cost(data,monthlyCost,totalQty,doc):
+                                                            ^
+ IndentationError: unindent does not match any outer indentation level
+
+--------------
+
+2014-11-24 05:06:33,529 Request Error 
+ site: 128.199.253.52
+ form: {'cached_timestamp': u'',
+ 'cmd': u'frappe.widgets.form.load.getdoctype',
+ 'doctype': u'Production Actual Cost',
+ 'with_parent': u'1'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/load.py", line 62, in getdoctype
+    docs = get_meta_bundle(doctype)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/load.py", line 72, in get_meta_bundle
+    bundle = [frappe.widgets.form.meta.get_meta(doctype)]
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/meta.py", line 19, in get_meta
+    meta = frappe.cache().get_value("form_meta:" + doctype, lambda: FormMeta(doctype))
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/memc.py", line 21, in get_value
+    val = builder()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/meta.py", line 19, in <lambda>
+    meta = frappe.cache().get_value("form_meta:" + doctype, lambda: FormMeta(doctype))
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/meta.py", line 31, in __init__
+    self.load_assets()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/meta.py", line 41, in load_assets
+    self.load_templates()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/meta.py", line 160, in load_templates
+    module = load_doctype_module(self.name)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/modules/__init__.py", line 58, in load_doctype_module
+    doctype_python_modules[key] = frappe.get_module(get_module_name(doctype, module, prefix))
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 379, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/doctype/production_actual_cost/production_actual_cost.py", line 195
+    def generate_monthly_cost(data,monthlyCost,totalQty,doc):
+                                                            ^
+ IndentationError: unindent does not match any outer indentation level
+
+--------------
+
+2014-11-24 05:08:03,060 Request Error 
+ site: 128.199.253.52
+ form: {'cached_timestamp': u'',
+ 'cmd': u'frappe.widgets.form.load.getdoctype',
+ 'doctype': u'Production Actual Cost',
+ 'with_parent': u'1'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/load.py", line 62, in getdoctype
+    docs = get_meta_bundle(doctype)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/load.py", line 72, in get_meta_bundle
+    bundle = [frappe.widgets.form.meta.get_meta(doctype)]
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/meta.py", line 19, in get_meta
+    meta = frappe.cache().get_value("form_meta:" + doctype, lambda: FormMeta(doctype))
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/memc.py", line 21, in get_value
+    val = builder()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/meta.py", line 19, in <lambda>
+    meta = frappe.cache().get_value("form_meta:" + doctype, lambda: FormMeta(doctype))
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/meta.py", line 31, in __init__
+    self.load_assets()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/meta.py", line 41, in load_assets
+    self.load_templates()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/meta.py", line 160, in load_templates
+    module = load_doctype_module(self.name)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/modules/__init__.py", line 58, in load_doctype_module
+    doctype_python_modules[key] = frappe.get_module(get_module_name(doctype, module, prefix))
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 379, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/doctype/production_actual_cost/production_actual_cost.py", line 196
+    if totalQty==0 or monthlyCost==0:
+     ^
+ IndentationError: expected an indented block
+
+--------------
+
+2014-11-24 05:09:59,428 Request Error 
+ site: 128.199.253.52
+ form: {'cached_timestamp': u'',
+ 'cmd': u'frappe.widgets.form.load.getdoctype',
+ 'doctype': u'Production Actual Cost',
+ 'with_parent': u'1'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/load.py", line 62, in getdoctype
+    docs = get_meta_bundle(doctype)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/load.py", line 72, in get_meta_bundle
+    bundle = [frappe.widgets.form.meta.get_meta(doctype)]
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/meta.py", line 19, in get_meta
+    meta = frappe.cache().get_value("form_meta:" + doctype, lambda: FormMeta(doctype))
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/memc.py", line 21, in get_value
+    val = builder()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/meta.py", line 19, in <lambda>
+    meta = frappe.cache().get_value("form_meta:" + doctype, lambda: FormMeta(doctype))
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/meta.py", line 31, in __init__
+    self.load_assets()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/meta.py", line 41, in load_assets
+    self.load_templates()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/meta.py", line 160, in load_templates
+    module = load_doctype_module(self.name)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/modules/__init__.py", line 58, in load_doctype_module
+    doctype_python_modules[key] = frappe.get_module(get_module_name(doctype, module, prefix))
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 379, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/doctype/production_actual_cost/production_actual_cost.py", line 197
+    pcost=0
+        ^
+ IndentationError: expected an indented block
+
+--------------
+
+2014-11-24 05:14:54,898 Request Error 
+ site: 128.199.253.52
+ form: {'cached_timestamp': u'',
+ 'cmd': u'frappe.widgets.form.load.getdoctype',
+ 'doctype': u'Production Actual Cost',
+ 'with_parent': u'1'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/load.py", line 62, in getdoctype
+    docs = get_meta_bundle(doctype)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/load.py", line 72, in get_meta_bundle
+    bundle = [frappe.widgets.form.meta.get_meta(doctype)]
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/meta.py", line 19, in get_meta
+    meta = frappe.cache().get_value("form_meta:" + doctype, lambda: FormMeta(doctype))
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/memc.py", line 21, in get_value
+    val = builder()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/meta.py", line 19, in <lambda>
+    meta = frappe.cache().get_value("form_meta:" + doctype, lambda: FormMeta(doctype))
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/meta.py", line 31, in __init__
+    self.load_assets()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/meta.py", line 41, in load_assets
+    self.load_templates()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/meta.py", line 160, in load_templates
+    module = load_doctype_module(self.name)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/modules/__init__.py", line 58, in load_doctype_module
+    doctype_python_modules[key] = frappe.get_module(get_module_name(doctype, module, prefix))
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 379, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/doctype/production_actual_cost/production_actual_cost.py", line 197
+    pcost=0
+        ^
+ IndentationError: expected an indented block
+
+--------------
+
+2014-11-24 05:16:12,717 Request Error 
+ site: 128.199.253.52
+ form: {'cached_timestamp': u'',
+ 'cmd': u'frappe.widgets.form.load.getdoctype',
+ 'doctype': u'Production Actual Cost',
+ 'with_parent': u'1'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/load.py", line 62, in getdoctype
+    docs = get_meta_bundle(doctype)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/load.py", line 72, in get_meta_bundle
+    bundle = [frappe.widgets.form.meta.get_meta(doctype)]
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/meta.py", line 19, in get_meta
+    meta = frappe.cache().get_value("form_meta:" + doctype, lambda: FormMeta(doctype))
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/memc.py", line 21, in get_value
+    val = builder()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/meta.py", line 19, in <lambda>
+    meta = frappe.cache().get_value("form_meta:" + doctype, lambda: FormMeta(doctype))
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/meta.py", line 31, in __init__
+    self.load_assets()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/meta.py", line 41, in load_assets
+    self.load_templates()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/meta.py", line 160, in load_templates
+    module = load_doctype_module(self.name)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/modules/__init__.py", line 58, in load_doctype_module
+    doctype_python_modules[key] = frappe.get_module(get_module_name(doctype, module, prefix))
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 379, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/doctype/production_actual_cost/production_actual_cost.py", line 203
+    "date":row[1],
+          ^
+ SyntaxError: invalid syntax
+
+--------------
+
+2014-11-24 05:20:20,815 Request Error 
+ site: 128.199.253.52
+ form: {'cmd': u'frappe.widgets.search.search_link',
+ 'doctype': u'company',
+ 'txt': u''}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/search.py", line 13, in search_link
+    search_widget(doctype, txt, query, searchfield=searchfield, page_len=page_len, filters=filters)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/search.py", line 85, in search_widget
+    as_list=True)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/reportview.py", line 20, in execute
+    order_by, limit_start, limit_page_length, as_list, with_childnames, debug)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/db_query.py", line 47, in execute
+    return self.build_and_run()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/db_query.py", line 50, in build_and_run
+    args = self.prepare_args()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/db_query.py", line 64, in prepare_args
+    self.remove_user_tags()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/db_query.py", line 134, in remove_user_tags
+    columns = frappe.db.get_table_columns(self.doctype)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/database.py", line 537, in get_table_columns
+    return [r[0] for r in self.sql("DESC `tab%s`" % doctype)]
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/database.py", line 121, in sql
+    self._cursor.execute(query)
+  File "/home/sigma/frappe-bench/env/local/lib/python2.7/site-packages/MySQLdb/cursors.py", line 205, in execute
+    self.errorhandler(self, exc, value)
+  File "/home/sigma/frappe-bench/env/local/lib/python2.7/site-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+ ProgrammingError: (1146, "Table '128.199.253.52.tabcompany' doesn't exist")
+
+--------------
+
+2014-11-24 05:30:49,446 Request Error 
+ site: 128.199.253.52
+ form: {'action': u'Save',
+ 'cmd': u'frappe.widgets.form.save.savedocs',
+ 'doc': u'{"docstatus":0,"doctype":"Production Actual Cost","name":"New Production Actual Cost 1","__islocal":1,"__unsaved":1,"owner":"Administrator","fiscal_year":"2014-2015","company":"Golden Step Indonesia","posting_date":"2014-11-24"}'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/save.py", line 18, in savedocs
+    doc.save()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/document.py", line 175, in save
+    self.insert()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/document.py", line 145, in insert
+    self._validate()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/document.py", line 257, in _validate
+    self._validate_constants()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/base_document.py", line 343, in _validate_constants
+    if self.get(fieldname) != values.get(fieldname):
+ AttributeError: 'NoneType' object has no attribute 'get'
+
+--------------
+
+2014-11-24 08:50:05,476 Request Error 
+ site: 128.199.253.52
+ form: {'action': u'Save',
+ 'cmd': u'frappe.widgets.form.save.savedocs',
+ 'doc': u'{"docstatus":0,"doctype":"Production Actual Cost","name":"New Production Actual Cost 1","__islocal":1,"__unsaved":1,"owner":"Administrator","fiscal_year":"2014-2015","company":"Golden Step Indonesia","posting_date":"2014-11-24"}'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/save.py", line 18, in savedocs
+    doc.save()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/document.py", line 175, in save
+    self.insert()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/document.py", line 145, in insert
+    self._validate()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/document.py", line 257, in _validate
+    self._validate_constants()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/base_document.py", line 343, in _validate_constants
+    if self.get(fieldname) != values.get(fieldname):
+ AttributeError: 'NoneType' object has no attribute 'get'
+
+--------------
+
+2014-11-24 11:28:00,369 Request Error 
+ site: 128.199.253.52
+ form: {'action': u'Save',
+ 'cmd': u'frappe.widgets.form.save.savedocs',
+ 'doc': u'{"docstatus":0,"doctype":"Production Actual Cost","name":"New Production Actual Cost 1","__islocal":1,"__unsaved":1,"owner":"Administrator","fiscal_year":"2014-2015","company":"Golden Step Indonesia","posting_date":"2014-11-24"}'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/save.py", line 18, in savedocs
+    doc.save()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/document.py", line 175, in save
+    self.insert()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/document.py", line 145, in insert
+    self._validate()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/document.py", line 257, in _validate
+    self._validate_constants()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/base_document.py", line 343, in _validate_constants
+    if self.get(fieldname) != values.get(fieldname):
+ AttributeError: 'NoneType' object has no attribute 'get'
+
+--------------
+
+2014-11-24 12:36:35,814 Request Error 
+ site: 128.199.253.52
+ form: {'action': u'Save',
+ 'cmd': u'frappe.widgets.form.save.savedocs',
+ 'doc': u'{"docstatus":0,"doctype":"Production Actual Cost","name":"New Production Actual Cost 1","__islocal":1,"__unsaved":1,"owner":"Administrator","fiscal_year":"2014-2015","company":"Golden Step Indonesia","posting_date":"2014-11-24"}'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/save.py", line 18, in savedocs
+    doc.save()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/document.py", line 175, in save
+    self.insert()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/document.py", line 145, in insert
+    self._validate()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/document.py", line 257, in _validate
+    self._validate_constants()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/base_document.py", line 343, in _validate_constants
+    if self.get(fieldname) != values.get(fieldname):
+ AttributeError: 'NoneType' object has no attribute 'get'
+
+--------------

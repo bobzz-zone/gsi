@@ -1,0 +1,22 @@
+2014-09-04 05:21:45,369 INFO getting app erpnext
+2014-09-04 05:21:56,205 INFO installing erpnext
+2014-09-04 05:22:44,518 INFO creating new site 128.199.253.52
+2014-09-04 23:52:26,824 INFO creating new site 128.199.253.52
+2014-09-17 08:15:32,046 INFO setting up sudoers
+2014-09-17 08:15:35,245 INFO pulling frappe
+2014-09-17 08:15:42,908 INFO pulling erpnext
+2014-09-18 04:09:06,051 INFO setting up sudoers
+2014-09-18 04:09:07,953 INFO pulling frappe
+2014-09-18 04:09:12,203 INFO pulling erpnext
+2014-09-27 04:18:28,480 INFO setting up sudoers
+2014-09-27 04:18:30,248 INFO pulling frappe
+2014-09-27 04:18:34,250 INFO pulling erpnext
+2014-10-22 21:59:34,290 INFO setting up sudoers
+2014-10-22 21:59:37,953 INFO pulling frappe
+2014-10-22 21:59:46,386 INFO pulling erpnext
+2014-10-27 12:21:23,755 INFO setting up sudoers
+2014-10-27 12:21:25,660 INFO pulling frappe
+2014-10-27 12:21:29,593 INFO pulling erpnext
+2014-11-21 03:27:25,672 INFO setting up sudoers
+2014-11-21 03:27:30,009 INFO pulling frappe
+2014-11-21 03:27:35,194 INFO pulling erpnext
