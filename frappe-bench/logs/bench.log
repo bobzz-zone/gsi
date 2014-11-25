@@ -20,3 +20,5 @@
 2014-11-21 03:27:25,672 INFO setting up sudoers
 2014-11-21 03:27:30,009 INFO pulling frappe
 2014-11-21 03:27:35,194 INFO pulling erpnext
+2014-11-25 02:42:55,000 INFO creating new app manufacture_costing
+2014-11-25 02:44:08,540 INFO installing manufacture_costing

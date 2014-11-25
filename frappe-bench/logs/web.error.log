@@ -3228,3 +3228,631 @@ Traceback (innermost last):
  AttributeError: 'NoneType' object has no attribute 'get'
 
 --------------
+
+2014-11-24 23:25:44,639 Request Error 
+ site: 128.199.253.52
+ form: {'action': u'Save',
+ 'cmd': u'frappe.widgets.form.save.savedocs',
+ 'doc': u'{"docstatus":0,"doctype":"Production Actual Cost","name":"New Production Actual Cost 1","__islocal":1,"__unsaved":1,"owner":"Administrator","fiscal_year":"2014-2015","company":"Golden Step Indonesia","posting_date":"2014-11-25"}'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/save.py", line 18, in savedocs
+    doc.save()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/document.py", line 175, in save
+    self.insert()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/document.py", line 145, in insert
+    self._validate()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/document.py", line 257, in _validate
+    self._validate_constants()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/base_document.py", line 343, in _validate_constants
+    if self.get(fieldname) != values.get(fieldname):
+ AttributeError: 'NoneType' object has no attribute 'get'
+
+--------------
+
+2014-11-24 23:42:42,246 Request Error 
+ site: 128.199.253.52
+ form: {'action': u'Save',
+ 'cmd': u'frappe.widgets.form.save.savedocs',
+ 'doc': u'{"docstatus":0,"doctype":"Production Actual Cost","name":"New Production Actual Cost 2","__islocal":1,"__unsaved":1,"owner":"Administrator","fiscal_year":"2014-2015","company":"Golden Step Indonesia","posting_date":"2014-11-25"}'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/save.py", line 18, in savedocs
+    doc.save()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/document.py", line 175, in save
+    self.insert()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/document.py", line 145, in insert
+    self._validate()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/document.py", line 257, in _validate
+    self._validate_constants()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/base_document.py", line 343, in _validate_constants
+    if self.get(fieldname) != values.get(fieldname):
+ AttributeError: 'NoneType' object has no attribute 'get'
+
+--------------
+
+2014-11-24 23:43:51,728 Request Error 
+ site: 128.199.253.52
+ form: {'action': u'Save',
+ 'cmd': u'frappe.widgets.form.save.savedocs',
+ 'doc': u'{"docstatus":0,"doctype":"Production Actual Cost","name":"New Production Actual Cost 3","__islocal":1,"__unsaved":1,"owner":"Administrator","fiscal_year":"2014-2015","company":"Golden Step Indonesia","posting_date":"2014-11-25"}'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/save.py", line 18, in savedocs
+    doc.save()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/document.py", line 175, in save
+    self.insert()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/document.py", line 145, in insert
+    self._validate()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/document.py", line 257, in _validate
+    self._validate_constants()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/base_document.py", line 343, in _validate_constants
+    if self.get(fieldname) != values.get(fieldname):
+ AttributeError: 'NoneType' object has no attribute 'get'
+
+--------------
+
+2014-11-24 23:45:31,621 Request Error 
+ site: 128.199.253.52
+ form: {'action': u'Save',
+ 'cmd': u'frappe.widgets.form.save.savedocs',
+ 'doc': u'{"docstatus":0,"doctype":"Production Actual Cost","name":"New Production Actual Cost 3","__islocal":1,"__unsaved":1,"owner":"Administrator","fiscal_year":"2014-2015","company":"Golden Step Indonesia","posting_date":"2014-11-25"}'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/save.py", line 18, in savedocs
+    doc.save()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/document.py", line 175, in save
+    self.insert()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/document.py", line 145, in insert
+    self._validate()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/document.py", line 257, in _validate
+    self._validate_constants()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/base_document.py", line 343, in _validate_constants
+    if self.get(fieldname) != values.get(fieldname):
+ AttributeError: 'NoneType' object has no attribute 'get'
+
+--------------
+
+2014-11-24 23:51:00,389 Request Error 
+ site: 128.199.253.52
+ form: {'action': u'Save',
+ 'cmd': u'frappe.widgets.form.save.savedocs',
+ 'doc': u'{"docstatus":0,"doctype":"Production Actual Cost","name":"New Production Actual Cost 3","__islocal":1,"__unsaved":1,"owner":"Administrator","fiscal_year":"2014-2015","company":"Golden Step Indonesia","posting_date":"2014-11-25"}'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/save.py", line 18, in savedocs
+    doc.save()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/document.py", line 175, in save
+    self.insert()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/document.py", line 145, in insert
+    self._validate()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/document.py", line 257, in _validate
+    self._validate_constants()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/base_document.py", line 343, in _validate_constants
+    if self.get(fieldname) != values.get(fieldname):
+ AttributeError: 'NoneType' object has no attribute 'get'
+
+--------------
+
+2014-11-24 23:52:36,315 Request Error 
+ site: 128.199.253.52
+ form: {'action': u'Save',
+ 'cmd': u'frappe.widgets.form.save.savedocs',
+ 'doc': u'{"docstatus":0,"doctype":"Production Actual Cost","name":"New Production Actual Cost 3","__islocal":1,"__unsaved":1,"owner":"Administrator","fiscal_year":"2014-2015","company":"Golden Step Indonesia","posting_date":"2014-11-25"}'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/save.py", line 18, in savedocs
+    doc.save()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/document.py", line 175, in save
+    self.insert()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/document.py", line 145, in insert
+    self._validate()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/document.py", line 257, in _validate
+    self._validate_constants()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/base_document.py", line 343, in _validate_constants
+    if self.get(fieldname) != values.get(fieldname):
+ AttributeError: 'NoneType' object has no attribute 'get'
+
+--------------
+
+2014-11-25 00:14:43,521 Request Error 
+ site: 128.199.253.52
+ form: {'action': u'Save',
+ 'cmd': u'frappe.widgets.form.save.savedocs',
+ 'doc': u'{"docstatus":0,"doctype":"Production Actual Cost","name":"New Production Actual Cost 3","__islocal":1,"__unsaved":1,"owner":"Administrator","fiscal_year":"2014-2015","company":"Golden Step Indonesia","posting_date":"2014-11-25"}'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/save.py", line 18, in savedocs
+    doc.save()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/document.py", line 175, in save
+    self.insert()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/document.py", line 145, in insert
+    self._validate()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/document.py", line 257, in _validate
+    self._validate_constants()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/base_document.py", line 343, in _validate_constants
+    if self.get(fieldname) != values.get(fieldname):
+ AttributeError: 'NoneType' object has no attribute 'get'
+
+--------------
+
+2014-11-25 00:54:46,032 Request Error 
+ site: 128.199.253.52
+ form: {'cached_timestamp': u'',
+ 'cmd': u'frappe.widgets.form.load.getdoctype',
+ 'doctype': u'Production Actual Cost',
+ 'with_parent': u'1'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/load.py", line 62, in getdoctype
+    docs = get_meta_bundle(doctype)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/load.py", line 72, in get_meta_bundle
+    bundle = [frappe.widgets.form.meta.get_meta(doctype)]
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/meta.py", line 19, in get_meta
+    meta = frappe.cache().get_value("form_meta:" + doctype, lambda: FormMeta(doctype))
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/memc.py", line 21, in get_value
+    val = builder()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/meta.py", line 19, in <lambda>
+    meta = frappe.cache().get_value("form_meta:" + doctype, lambda: FormMeta(doctype))
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/meta.py", line 31, in __init__
+    self.load_assets()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/meta.py", line 41, in load_assets
+    self.load_templates()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/meta.py", line 160, in load_templates
+    module = load_doctype_module(self.name)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/modules/__init__.py", line 58, in load_doctype_module
+    doctype_python_modules[key] = frappe.get_module(get_module_name(doctype, module, prefix))
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 379, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/doctype/production_actual_cost/production_actual_cost.py", line 14
+    def validate(self):
+      ^
+ IndentationError: expected an indented block
+
+--------------
+
+2014-11-25 00:59:23,583 Request Error 
+ site: 128.199.253.52
+ form: {'cached_timestamp': u'',
+ 'cmd': u'frappe.widgets.form.load.getdoctype',
+ 'doctype': u'Production Actual Cost',
+ 'with_parent': u'1'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/load.py", line 62, in getdoctype
+    docs = get_meta_bundle(doctype)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/load.py", line 72, in get_meta_bundle
+    bundle = [frappe.widgets.form.meta.get_meta(doctype)]
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/meta.py", line 19, in get_meta
+    meta = frappe.cache().get_value("form_meta:" + doctype, lambda: FormMeta(doctype))
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/memc.py", line 21, in get_value
+    val = builder()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/meta.py", line 19, in <lambda>
+    meta = frappe.cache().get_value("form_meta:" + doctype, lambda: FormMeta(doctype))
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/meta.py", line 31, in __init__
+    self.load_assets()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/meta.py", line 41, in load_assets
+    self.load_templates()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/meta.py", line 160, in load_templates
+    module = load_doctype_module(self.name)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/modules/__init__.py", line 58, in load_doctype_module
+    doctype_python_modules[key] = frappe.get_module(get_module_name(doctype, module, prefix))
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 379, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/doctype/production_actual_cost/production_actual_cost.py", line 15
+    def validate(self):
+      ^
+ IndentationError: expected an indented block
+
+--------------
+
+2014-11-25 01:17:56,612 Request Error 
+ site: 128.199.253.52
+ form: {'cached_timestamp': u'',
+ 'cmd': u'frappe.widgets.form.load.getdoctype',
+ 'doctype': u'Production Actual Cost',
+ 'with_parent': u'1'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/load.py", line 62, in getdoctype
+    docs = get_meta_bundle(doctype)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/load.py", line 72, in get_meta_bundle
+    bundle = [frappe.widgets.form.meta.get_meta(doctype)]
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/meta.py", line 19, in get_meta
+    meta = frappe.cache().get_value("form_meta:" + doctype, lambda: FormMeta(doctype))
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/memc.py", line 21, in get_value
+    val = builder()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/meta.py", line 19, in <lambda>
+    meta = frappe.cache().get_value("form_meta:" + doctype, lambda: FormMeta(doctype))
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/meta.py", line 31, in __init__
+    self.load_assets()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/meta.py", line 41, in load_assets
+    self.load_templates()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/meta.py", line 160, in load_templates
+    module = load_doctype_module(self.name)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/modules/__init__.py", line 58, in load_doctype_module
+    doctype_python_modules[key] = frappe.get_module(get_module_name(doctype, module, prefix))
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 379, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/sigma/frappe-bench/apps/erpnext/erpnext/manufacturing/doctype/production_actual_cost/production_actual_cost.py", line 16
+    def validate(self):
+      ^
+ IndentationError: expected an indented block
+
+--------------
+
+2014-11-25 01:36:45,846 Request Error 
+ site: 128.199.253.52
+ form: {'action': u'Save',
+ 'cmd': u'frappe.widgets.form.save.savedocs',
+ 'doc': u'{"docstatus":0,"doctype":"Production Actual Cost","name":"New Production Actual Cost 1","__islocal":1,"__unsaved":1,"owner":"Administrator","fiscal_year":"2014-2015","company":"Golden Step Indonesia","posting_date":"2014-11-25"}'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/save.py", line 18, in savedocs
+    doc.save()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/document.py", line 175, in save
+    self.insert()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/document.py", line 145, in insert
+    self._validate()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/document.py", line 257, in _validate
+    self._validate_constants()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/base_document.py", line 343, in _validate_constants
+    if self.get(fieldname) != values.get(fieldname):
+ AttributeError: 'NoneType' object has no attribute 'get'
+
+--------------
+
+2014-11-25 02:08:22,207 Request Error 
+ site: 128.199.253.52
+ form: {'action': u'Save',
+ 'cmd': u'frappe.widgets.form.save.savedocs',
+ 'doc': u'{"docstatus":0,"doctype":"Production Actual Cost","name":"New Production Actual Cost 1","__islocal":1,"__unsaved":1,"owner":"Administrator","fiscal_year":"2014-2015","company":"Golden Step Indonesia","posting_date":"2014-11-25"}'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/save.py", line 18, in savedocs
+    doc.save()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/document.py", line 175, in save
+    self.insert()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/document.py", line 145, in insert
+    self._validate()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/document.py", line 257, in _validate
+    self._validate_constants()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/base_document.py", line 343, in _validate_constants
+    if self.get(fieldname) != values.get(fieldname):
+ AttributeError: 'NoneType' object has no attribute 'get'
+
+--------------
+
+2014-11-25 02:08:58,162 Request Error 
+ site: 128.199.253.52
+ form: {'action': u'Save',
+ 'cmd': u'frappe.widgets.form.save.savedocs',
+ 'doc': u'{"docstatus":0,"doctype":"Production Actual Cost","name":"New Production Actual Cost 1","__islocal":1,"__unsaved":1,"owner":"Administrator","fiscal_year":"2014-2015","company":"Golden Step Indonesia","posting_date":"2014-11-25"}'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/save.py", line 18, in savedocs
+    doc.save()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/document.py", line 175, in save
+    self.insert()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/document.py", line 145, in insert
+    self._validate()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/document.py", line 257, in _validate
+    self._validate_constants()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/base_document.py", line 343, in _validate_constants
+    if self.get(fieldname) != values.get(fieldname):
+ AttributeError: 'NoneType' object has no attribute 'get'
+
+--------------
+
+2014-11-25 02:11:16,339 Request Error 
+ site: 128.199.253.52
+ form: {'action': u'Save',
+ 'cmd': u'frappe.widgets.form.save.savedocs',
+ 'doc': u'{"docstatus":0,"doctype":"Production Actual Cost","name":"New Production Actual Cost 1","__islocal":1,"__unsaved":1,"owner":"Administrator","fiscal_year":"2014-2015","company":"Golden Step Indonesia","posting_date":"2014-11-25"}'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/save.py", line 18, in savedocs
+    doc.save()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/document.py", line 175, in save
+    self.insert()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/document.py", line 145, in insert
+    self._validate()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/document.py", line 257, in _validate
+    self._validate_constants()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/base_document.py", line 343, in _validate_constants
+    if self.get(fieldname) != values.get(fieldname):
+ AttributeError: 'NoneType' object has no attribute 'get'
+
+--------------
+
+2014-11-25 02:11:39,628 Request Error 
+ site: 128.199.253.52
+ form: {'action': u'Save',
+ 'cmd': u'frappe.widgets.form.save.savedocs',
+ 'doc': u'{"docstatus":0,"doctype":"Production Actual Cost","name":"New Production Actual Cost 1","__islocal":1,"__unsaved":1,"owner":"Administrator","fiscal_year":"2014-2015","company":"Golden Step Indonesia","posting_date":"2014-11-25"}'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/save.py", line 18, in savedocs
+    doc.save()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/document.py", line 175, in save
+    self.insert()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/document.py", line 145, in insert
+    self._validate()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/document.py", line 257, in _validate
+    self._validate_constants()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/base_document.py", line 343, in _validate_constants
+    if self.get(fieldname) != values.get(fieldname):
+ AttributeError: 'NoneType' object has no attribute 'get'
+
+--------------
+
+2014-11-25 02:18:39,572 Request Error 
+ site: 128.199.253.52
+ form: {'action': u'Save',
+ 'cmd': u'frappe.widgets.form.save.savedocs',
+ 'doc': u'{"docstatus":0,"doctype":"Production Actual Cost","name":"New Production Actual Cost 1","__islocal":1,"__unsaved":1,"owner":"Administrator","fiscal_year":"2014-2015","company":"Golden Step Indonesia","posting_date":"2014-11-25"}'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/save.py", line 18, in savedocs
+    doc.save()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/document.py", line 175, in save
+    self.insert()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/document.py", line 145, in insert
+    self._validate()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/document.py", line 257, in _validate
+    self._validate_constants()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/base_document.py", line 343, in _validate_constants
+    if self.get(fieldname) != values.get(fieldname):
+ AttributeError: 'NoneType' object has no attribute 'get'
+
+--------------
+
+2014-11-25 02:19:15,886 Request Error 
+ site: 128.199.253.52
+ form: {'action': u'Save',
+ 'cmd': u'frappe.widgets.form.save.savedocs',
+ 'doc': u'{"docstatus":0,"doctype":"Production Actual Cost","name":"New Production Actual Cost 1","__islocal":1,"__unsaved":1,"owner":"Administrator","fiscal_year":"2014-2015","company":"Golden Step Indonesia","posting_date":"2014-11-25"}'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/save.py", line 18, in savedocs
+    doc.save()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/document.py", line 175, in save
+    self.insert()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/document.py", line 145, in insert
+    self._validate()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/document.py", line 257, in _validate
+    self._validate_constants()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/base_document.py", line 343, in _validate_constants
+    if self.get(fieldname) != values.get(fieldname):
+ AttributeError: 'NoneType' object has no attribute 'get'
+
+--------------
+
+2014-11-25 02:36:56,684 Request Error 
+ site: 128.199.253.52
+ form: {'action': u'Save',
+ 'cmd': u'frappe.widgets.form.save.savedocs',
+ 'doc': u'{"docstatus":0,"doctype":"Production Actual Cost","name":"New Production Actual Cost 1","__islocal":1,"__unsaved":1,"owner":"Administrator","fiscal_year":"2014-2015","company":"Golden Step Indonesia","posting_date":"2014-11-25"}'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/save.py", line 18, in savedocs
+    doc.save()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/document.py", line 175, in save
+    self.insert()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/document.py", line 145, in insert
+    self._validate()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/document.py", line 257, in _validate
+    self._validate_constants()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/base_document.py", line 343, in _validate_constants
+    if self.get(fieldname) != values.get(fieldname):
+ AttributeError: 'NoneType' object has no attribute 'get'
+
+--------------
+
+2014-11-25 02:37:06,884 Request Error 
+ site: 128.199.253.52
+ form: {'action': u'Save',
+ 'cmd': u'frappe.widgets.form.save.savedocs',
+ 'doc': u'{"docstatus":0,"doctype":"Production Actual Cost","name":"New Production Actual Cost 1","__islocal":1,"__unsaved":1,"owner":"Administrator","fiscal_year":"2014-2015","company":"Golden Step Indonesia","posting_date":"2014-11-25"}'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/save.py", line 18, in savedocs
+    doc.save()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/document.py", line 175, in save
+    self.insert()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/document.py", line 145, in insert
+    self._validate()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/document.py", line 257, in _validate
+    self._validate_constants()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/base_document.py", line 343, in _validate_constants
+    if self.get(fieldname) != values.get(fieldname):
+ AttributeError: 'NoneType' object has no attribute 'get'
+
+--------------
+
+2014-11-25 03:19:33,874 Request Error 
+ site: 128.199.253.52
+ form: {'action': u'Save',
+ 'cmd': u'frappe.widgets.form.save.savedocs',
+ 'doc': u'{"docstatus":0,"doctype":"Production Actual Cost","name":"New Production Actual Cost 1","__islocal":1,"__unsaved":1,"owner":"Administrator","fiscal_year":"2014-2015","company":"Golden Step Indonesia","posting_date":"2014-11-25"}'}
+
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/app.py", line 49, in application
+    response = frappe.handler.handle()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 66, in handle
+    execute_cmd(cmd)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/handler.py", line 89, in execute_cmd
+    ret = frappe.call(method, **frappe.form_dict)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 531, in call
+    return fn(*args, **newargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/widgets/form/save.py", line 18, in savedocs
+    doc.save()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/document.py", line 175, in save
+    self.insert()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/document.py", line 145, in insert
+    self._validate()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/document.py", line 257, in _validate
+    self._validate_constants()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/model/base_document.py", line 343, in _validate_constants
+    if self.get(fieldname) != values.get(fieldname):
+ AttributeError: 'NoneType' object has no attribute 'get'
+
+--------------

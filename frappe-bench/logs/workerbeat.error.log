@@ -9736,3 +9736,92 @@ Stale pidfile exists. Removing it.
 [2014-11-24 22:28:14,201: INFO/MainProcess] Scheduler: Sending due task scheduler (frappe.tasks.enqueue_scheduler_events)
 [2014-11-24 22:33:14,300: INFO/MainProcess] Scheduler: Sending due task scheduler (frappe.tasks.enqueue_scheduler_events)
 [2014-11-24 22:38:14,381: INFO/MainProcess] Scheduler: Sending due task scheduler (frappe.tasks.enqueue_scheduler_events)
+[2014-11-24 22:43:14,474: INFO/MainProcess] Scheduler: Sending due task scheduler (frappe.tasks.enqueue_scheduler_events)
+[2014-11-24 22:48:14,528: INFO/MainProcess] Scheduler: Sending due task scheduler (frappe.tasks.enqueue_scheduler_events)
+[2014-11-24 22:53:14,628: INFO/MainProcess] Scheduler: Sending due task scheduler (frappe.tasks.enqueue_scheduler_events)
+[2014-11-24 22:58:14,671: INFO/MainProcess] Scheduler: Sending due task scheduler (frappe.tasks.enqueue_scheduler_events)
+[2014-11-24 23:00:00,098: INFO/MainProcess] Scheduler: Sending due task celery.backend_cleanup (celery.backend_cleanup)
+[2014-11-24 23:03:14,690: INFO/MainProcess] Scheduler: Sending due task scheduler (frappe.tasks.enqueue_scheduler_events)
+[2014-11-24 23:08:14,765: INFO/MainProcess] Scheduler: Sending due task scheduler (frappe.tasks.enqueue_scheduler_events)
+[2014-11-24 23:13:14,865: INFO/MainProcess] Scheduler: Sending due task scheduler (frappe.tasks.enqueue_scheduler_events)
+[2014-11-24 23:18:14,940: INFO/MainProcess] Scheduler: Sending due task scheduler (frappe.tasks.enqueue_scheduler_events)
+[2014-11-24 23:23:14,983: INFO/MainProcess] Scheduler: Sending due task scheduler (frappe.tasks.enqueue_scheduler_events)
+Stale pidfile exists. Removing it.
+[2014-11-24 23:24:37,250: INFO/MainProcess] beat: Starting...
+[2014-11-24 23:28:15,064: INFO/MainProcess] Scheduler: Sending due task scheduler (frappe.tasks.enqueue_scheduler_events)
+[2014-11-24 23:33:15,170: INFO/MainProcess] Scheduler: Sending due task scheduler (frappe.tasks.enqueue_scheduler_events)
+[2014-11-24 23:38:15,194: INFO/MainProcess] Scheduler: Sending due task scheduler (frappe.tasks.enqueue_scheduler_events)
+Stale pidfile exists. Removing it.
+[2014-11-24 23:43:18,928: INFO/MainProcess] beat: Starting...
+[2014-11-24 23:43:18,981: INFO/MainProcess] Scheduler: Sending due task scheduler (frappe.tasks.enqueue_scheduler_events)
+Stale pidfile exists. Removing it.
+[2014-11-24 23:45:23,001: INFO/MainProcess] beat: Starting...
+[2014-11-24 23:48:19,009: INFO/MainProcess] Scheduler: Sending due task scheduler (frappe.tasks.enqueue_scheduler_events)
+Stale pidfile exists. Removing it.
+[2014-11-24 23:50:56,492: INFO/MainProcess] beat: Starting...
+[2014-11-24 23:53:19,085: INFO/MainProcess] Scheduler: Sending due task scheduler (frappe.tasks.enqueue_scheduler_events)
+[2014-11-24 23:58:19,112: INFO/MainProcess] Scheduler: Sending due task scheduler (frappe.tasks.enqueue_scheduler_events)
+[2014-11-25 00:03:19,189: INFO/MainProcess] Scheduler: Sending due task scheduler (frappe.tasks.enqueue_scheduler_events)
+[2014-11-25 00:08:19,285: INFO/MainProcess] Scheduler: Sending due task scheduler (frappe.tasks.enqueue_scheduler_events)
+[2014-11-25 00:13:19,385: INFO/MainProcess] Scheduler: Sending due task scheduler (frappe.tasks.enqueue_scheduler_events)
+Stale pidfile exists. Removing it.
+[2014-11-25 00:14:39,007: INFO/MainProcess] beat: Starting...
+[2014-11-25 00:18:19,471: INFO/MainProcess] Scheduler: Sending due task scheduler (frappe.tasks.enqueue_scheduler_events)
+[2014-11-25 00:23:19,541: INFO/MainProcess] Scheduler: Sending due task scheduler (frappe.tasks.enqueue_scheduler_events)
+[2014-11-25 00:28:19,595: INFO/MainProcess] Scheduler: Sending due task scheduler (frappe.tasks.enqueue_scheduler_events)
+[2014-11-25 00:33:19,666: INFO/MainProcess] Scheduler: Sending due task scheduler (frappe.tasks.enqueue_scheduler_events)
+[2014-11-25 00:38:19,729: INFO/MainProcess] Scheduler: Sending due task scheduler (frappe.tasks.enqueue_scheduler_events)
+[2014-11-25 00:43:19,776: INFO/MainProcess] Scheduler: Sending due task scheduler (frappe.tasks.enqueue_scheduler_events)
+[2014-11-25 00:48:19,871: INFO/MainProcess] Scheduler: Sending due task scheduler (frappe.tasks.enqueue_scheduler_events)
+[2014-11-25 00:53:19,967: INFO/MainProcess] Scheduler: Sending due task scheduler (frappe.tasks.enqueue_scheduler_events)
+Stale pidfile exists. Removing it.
+[2014-11-25 00:53:58,369: INFO/MainProcess] beat: Starting...
+[2014-11-25 00:58:20,056: INFO/MainProcess] Scheduler: Sending due task scheduler (frappe.tasks.enqueue_scheduler_events)
+Stale pidfile exists. Removing it.
+[2014-11-25 00:58:30,575: INFO/MainProcess] beat: Starting...
+[2014-11-25 01:03:20,104: INFO/MainProcess] Scheduler: Sending due task scheduler (frappe.tasks.enqueue_scheduler_events)
+[2014-11-25 01:08:20,218: INFO/MainProcess] Scheduler: Sending due task scheduler (frappe.tasks.enqueue_scheduler_events)
+[2014-11-25 01:13:20,493: INFO/MainProcess] Scheduler: Sending due task scheduler (frappe.tasks.enqueue_scheduler_events)
+Stale pidfile exists. Removing it.
+[2014-11-25 01:16:57,032: INFO/MainProcess] beat: Starting...
+[2014-11-25 01:18:20,542: INFO/MainProcess] Scheduler: Sending due task scheduler (frappe.tasks.enqueue_scheduler_events)
+[2014-11-25 01:23:20,644: INFO/MainProcess] Scheduler: Sending due task scheduler (frappe.tasks.enqueue_scheduler_events)
+[2014-11-25 01:28:20,751: INFO/MainProcess] Scheduler: Sending due task scheduler (frappe.tasks.enqueue_scheduler_events)
+[2014-11-25 01:33:20,832: INFO/MainProcess] Scheduler: Sending due task scheduler (frappe.tasks.enqueue_scheduler_events)
+Stale pidfile exists. Removing it.
+[2014-11-25 01:36:42,587: INFO/MainProcess] beat: Starting...
+[2014-11-25 01:38:20,922: INFO/MainProcess] Scheduler: Sending due task scheduler (frappe.tasks.enqueue_scheduler_events)
+[2014-11-25 01:43:21,017: INFO/MainProcess] Scheduler: Sending due task scheduler (frappe.tasks.enqueue_scheduler_events)
+[2014-11-25 01:48:21,110: INFO/MainProcess] Scheduler: Sending due task scheduler (frappe.tasks.enqueue_scheduler_events)
+[2014-11-25 01:53:21,166: INFO/MainProcess] Scheduler: Sending due task scheduler (frappe.tasks.enqueue_scheduler_events)
+[2014-11-25 01:58:21,256: INFO/MainProcess] Scheduler: Sending due task scheduler (frappe.tasks.enqueue_scheduler_events)
+[2014-11-25 02:03:21,331: INFO/MainProcess] Scheduler: Sending due task scheduler (frappe.tasks.enqueue_scheduler_events)
+Stale pidfile exists. Removing it.
+[2014-11-25 02:08:13,724: INFO/MainProcess] beat: Starting...
+[2014-11-25 02:08:21,333: INFO/MainProcess] Scheduler: Sending due task scheduler (frappe.tasks.enqueue_scheduler_events)
+Stale pidfile exists. Removing it.
+[2014-11-25 02:10:52,984: INFO/MainProcess] beat: Starting...
+[2014-11-25 02:13:21,424: INFO/MainProcess] Scheduler: Sending due task scheduler (frappe.tasks.enqueue_scheduler_events)
+Stale pidfile exists. Removing it.
+[2014-11-25 02:18:25,570: INFO/MainProcess] beat: Starting...
+[2014-11-25 02:18:25,831: INFO/MainProcess] Scheduler: Sending due task scheduler (frappe.tasks.enqueue_scheduler_events)
+[2014-11-25 02:23:26,077: INFO/MainProcess] Scheduler: Sending due task scheduler (frappe.tasks.enqueue_scheduler_events)
+[2014-11-25 02:28:26,180: INFO/MainProcess] Scheduler: Sending due task scheduler (frappe.tasks.enqueue_scheduler_events)
+[2014-11-25 02:33:26,187: INFO/MainProcess] Scheduler: Sending due task scheduler (frappe.tasks.enqueue_scheduler_events)
+Stale pidfile exists. Removing it.
+[2014-11-25 02:36:34,569: INFO/MainProcess] beat: Starting...
+[2014-11-25 02:38:26,278: INFO/MainProcess] Scheduler: Sending due task scheduler (frappe.tasks.enqueue_scheduler_events)
+[2014-11-25 02:43:26,384: INFO/MainProcess] Scheduler: Sending due task scheduler (frappe.tasks.enqueue_scheduler_events)
+[2014-11-25 02:48:26,454: INFO/MainProcess] Scheduler: Sending due task scheduler (frappe.tasks.enqueue_scheduler_events)
+[2014-11-25 02:53:26,497: INFO/MainProcess] Scheduler: Sending due task scheduler (frappe.tasks.enqueue_scheduler_events)
+[2014-11-25 02:58:26,588: INFO/MainProcess] Scheduler: Sending due task scheduler (frappe.tasks.enqueue_scheduler_events)
+[2014-11-25 03:03:26,686: INFO/MainProcess] Scheduler: Sending due task scheduler (frappe.tasks.enqueue_scheduler_events)
+Stale pidfile exists. Removing it.
+[2014-11-25 03:06:37,909: INFO/MainProcess] beat: Starting...
+[2014-11-25 03:08:26,771: INFO/MainProcess] Scheduler: Sending due task scheduler (frappe.tasks.enqueue_scheduler_events)
+[2014-11-25 03:13:26,873: INFO/MainProcess] Scheduler: Sending due task scheduler (frappe.tasks.enqueue_scheduler_events)
+[2014-11-25 03:18:26,939: INFO/MainProcess] Scheduler: Sending due task scheduler (frappe.tasks.enqueue_scheduler_events)
+Stale pidfile exists. Removing it.
+[2014-11-25 03:19:10,464: INFO/MainProcess] beat: Starting...
+[2014-11-25 03:23:26,973: INFO/MainProcess] Scheduler: Sending due task scheduler (frappe.tasks.enqueue_scheduler_events)
+[2014-11-25 03:28:27,086: INFO/MainProcess] Scheduler: Sending due task scheduler (frappe.tasks.enqueue_scheduler_events)

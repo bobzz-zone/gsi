@@ -43,3 +43,32 @@ Traceback (innermost last):
     "Control characters not allowed")
  MemcachedKeyCharacterError: Control characters not allowed
 
+Traceback (innermost last):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/website/render.py", line 23, in render
+    data = render_page(path)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/website/render.py", line 105, in render_page
+    return build(path)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/website/render.py", line 114, in build
+    return build_method(path)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/website/render.py", line 127, in build_page
+    context = get_context(path)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/website/context.py", line 36, in get_context
+    context = build_context(context)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/website/context.py", line 81, in build_context
+    context.data = render_blocks(context)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/website/template.py", line 18, in render_blocks
+    env = frappe.get_jenv()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/utils/jinja.py", line 14, in get_jenv
+    set_filters(jenv)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/utils/jinja.py", line 104, in set_filters
+    for jenv_filter in (frappe.get_hooks(app_name=app).jenv_filter or []):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 462, in get_hooks
+    hooks = _dict(load_app_hooks(app_name))
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 441, in load_app_hooks
+    app_hooks = get_module(app + ".hooks")
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 379, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+ ImportError: No module named manufacture_costing.hooks
+

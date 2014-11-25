@@ -325,3 +325,157 @@ worker: Cold shutdown (MainProcess)
 [2014-11-24 12:36:33,103: WARNING/MainProcess] celery@GSI2 ready.
 [2014-11-24 22:17:21,702: WARNING/MainProcess] celery@GSI2 ready.
 [2014-11-24 22:21:32,187: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-24 23:24:38,364: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-24 23:43:20,071: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-24 23:45:24,125: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-24 23:50:57,695: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-25 00:14:40,234: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-25 00:53:59,495: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-25 00:58:31,702: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-25 01:16:57,473: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-25 01:36:43,700: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-25 02:08:14,846: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-25 02:10:54,125: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-25 02:18:26,634: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-25 02:36:35,702: WARNING/MainProcess] celery@GSI2 ready.
+[2014-11-25 02:48:26,664: ERROR/MainProcess] Task frappe.tasks.scheduler_task[e6a9a0f4-1b55-4bad-b1dc-2f2b6498ffbc] raised unexpected: RuntimeError(u'no object bound to db',)
+Traceback (most recent call last):
+  File "/home/sigma/frappe-bench/env/local/lib/python2.7/site-packages/celery/app/trace.py", line 240, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/sigma/frappe-bench/env/local/lib/python2.7/site-packages/celery/app/trace.py", line 437, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/tasks.py", line 80, in scheduler_task
+    frappe.db.rollback()
+  File "/home/sigma/frappe-bench/env/local/lib/python2.7/site-packages/werkzeug/local.py", line 338, in __getattr__
+    return getattr(self._get_current_object(), name)
+  File "/home/sigma/frappe-bench/env/local/lib/python2.7/site-packages/werkzeug/local.py", line 301, in _get_current_object
+    raise RuntimeError('no object bound to %s' % self.__name__)
+RuntimeError: no object bound to db
+[2014-11-25 02:48:26,672: ERROR/MainProcess] Task frappe.tasks.scheduler_task[c98272ff-a7df-4f16-8d88-c0a880ae21fc] raised unexpected: RuntimeError(u'no object bound to db',)
+Traceback (most recent call last):
+  File "/home/sigma/frappe-bench/env/local/lib/python2.7/site-packages/celery/app/trace.py", line 240, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/sigma/frappe-bench/env/local/lib/python2.7/site-packages/celery/app/trace.py", line 437, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/tasks.py", line 80, in scheduler_task
+    frappe.db.rollback()
+  File "/home/sigma/frappe-bench/env/local/lib/python2.7/site-packages/werkzeug/local.py", line 338, in __getattr__
+    return getattr(self._get_current_object(), name)
+  File "/home/sigma/frappe-bench/env/local/lib/python2.7/site-packages/werkzeug/local.py", line 301, in _get_current_object
+    raise RuntimeError('no object bound to %s' % self.__name__)
+RuntimeError: no object bound to db
+[2014-11-25 02:48:26,679: ERROR/MainProcess] Task frappe.tasks.scheduler_task[24e18aa6-9be3-4199-9951-56c2eb06c4f1] raised unexpected: RuntimeError(u'no object bound to db',)
+Traceback (most recent call last):
+  File "/home/sigma/frappe-bench/env/local/lib/python2.7/site-packages/celery/app/trace.py", line 240, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/sigma/frappe-bench/env/local/lib/python2.7/site-packages/celery/app/trace.py", line 437, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/tasks.py", line 80, in scheduler_task
+    frappe.db.rollback()
+  File "/home/sigma/frappe-bench/env/local/lib/python2.7/site-packages/werkzeug/local.py", line 338, in __getattr__
+    return getattr(self._get_current_object(), name)
+  File "/home/sigma/frappe-bench/env/local/lib/python2.7/site-packages/werkzeug/local.py", line 301, in _get_current_object
+    raise RuntimeError('no object bound to %s' % self.__name__)
+RuntimeError: no object bound to db
+[2014-11-25 02:48:26,686: ERROR/MainProcess] Task frappe.tasks.scheduler_task[4d457a94-1d9c-448d-a7d2-2a21d67b98bd] raised unexpected: RuntimeError(u'no object bound to db',)
+Traceback (most recent call last):
+  File "/home/sigma/frappe-bench/env/local/lib/python2.7/site-packages/celery/app/trace.py", line 240, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/sigma/frappe-bench/env/local/lib/python2.7/site-packages/celery/app/trace.py", line 437, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/tasks.py", line 80, in scheduler_task
+    frappe.db.rollback()
+  File "/home/sigma/frappe-bench/env/local/lib/python2.7/site-packages/werkzeug/local.py", line 338, in __getattr__
+    return getattr(self._get_current_object(), name)
+  File "/home/sigma/frappe-bench/env/local/lib/python2.7/site-packages/werkzeug/local.py", line 301, in _get_current_object
+    raise RuntimeError('no object bound to %s' % self.__name__)
+RuntimeError: no object bound to db
+[2014-11-25 02:53:26,517: ERROR/MainProcess] Task frappe.tasks.enqueue_events_for_site[ec07492c-6798-4766-a2af-ab7e238a6c24] raised unexpected: ImportError('No module named manufacture_costing',)
+Traceback (most recent call last):
+  File "/home/sigma/frappe-bench/env/local/lib/python2.7/site-packages/celery/app/trace.py", line 240, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/sigma/frappe-bench/env/local/lib/python2.7/site-packages/celery/app/trace.py", line 437, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/tasks.py", line 104, in enqueue_events_for_site
+    frappe.init(site=site)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 109, in init
+    setup_module_map()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 483, in setup_module_map
+    for module in get_module_list(app):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 402, in get_module_list
+    return get_file_items(os.path.join(os.path.dirname(get_module(app_name).__file__), "modules.txt"))
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 379, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+ImportError: No module named manufacture_costing
+[2014-11-25 02:58:26,608: ERROR/MainProcess] Task frappe.tasks.enqueue_events_for_site[db6ad95b-e7aa-45a5-8c8b-38e2ddca0bf4] raised unexpected: ImportError('No module named manufacture_costing',)
+Traceback (most recent call last):
+  File "/home/sigma/frappe-bench/env/local/lib/python2.7/site-packages/celery/app/trace.py", line 240, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/sigma/frappe-bench/env/local/lib/python2.7/site-packages/celery/app/trace.py", line 437, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/tasks.py", line 104, in enqueue_events_for_site
+    frappe.init(site=site)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 109, in init
+    setup_module_map()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 483, in setup_module_map
+    for module in get_module_list(app):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 402, in get_module_list
+    return get_file_items(os.path.join(os.path.dirname(get_module(app_name).__file__), "modules.txt"))
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 379, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+ImportError: No module named manufacture_costing
+[2014-11-25 03:03:26,698: ERROR/MainProcess] Task frappe.tasks.enqueue_events_for_site[4e8e6b6f-b239-4235-84f9-5ce143ee43d6] raised unexpected: ImportError('No module named manufacture_costing',)
+Traceback (most recent call last):
+  File "/home/sigma/frappe-bench/env/local/lib/python2.7/site-packages/celery/app/trace.py", line 240, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/sigma/frappe-bench/env/local/lib/python2.7/site-packages/celery/app/trace.py", line 437, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/tasks.py", line 104, in enqueue_events_for_site
+    frappe.init(site=site)
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 109, in init
+    setup_module_map()
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 483, in setup_module_map
+    for module in get_module_list(app):
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 402, in get_module_list
+    return get_file_items(os.path.join(os.path.dirname(get_module(app_name).__file__), "modules.txt"))
+  File "/home/sigma/frappe-bench/apps/frappe/frappe/__init__.py", line 379, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+ImportError: No module named manufacture_costing
+
+worker: Cold shutdown (MainProcess)
+[2014-11-25 03:06:39,056: WARNING/MainProcess] celery@GSI2 ready.
+
+worker: Cold shutdown (MainProcess)
+[2014-11-25 03:19:11,592: WARNING/MainProcess] celery@GSI2 ready.
