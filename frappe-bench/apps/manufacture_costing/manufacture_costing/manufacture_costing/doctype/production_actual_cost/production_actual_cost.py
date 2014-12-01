@@ -10,27 +10,13 @@ from frappe.model.document import Document
 
 class ProductionActualCost(Document):
 	
-	def before_insert(self):
-		a=1
-
-	def validate(self):
-		a=1
-
-	def on_update(self):
-		a=1
-
-	def on_cancel(self):
-		a=1
-
-	def on_trash(self):
-		a=1
-
 	def on_submit(self):
 		last_transaction = frappe.get_list("Production Actual Cost",
 			fields=["posting_date"],
 			filters = {
 				"posting_date": ("<=", self.posting_date),
-				"name": ("!=", self.name)
+				"name": ("!=", self.name),
+				"docstatus": ("=", 1)
 			})
 		isFirst = 1
 		from_date="2001-01-01"
@@ -40,13 +26,14 @@ class ProductionActualCost(Document):
 		
 		to_date = self.posting_date
 		filters={"from_date":from_date,"to_date":to_date}
-		to_date="2014-11-11"
-		self.monthly=get_monthly_cost(filters)
-		self.time=get_work_timelog_data(filters)
-		self.production=get_production_data(filters)
-		self.summarize(time,production,monthly,self)
+		#to_date="2014-11-11"
+		monthly=self.get_monthly_cost(filters)
+		
+		time=self.get_work_timelog_data(filters)
+		production=self.get_production_data(filters)
+		self.summarize(time,production,monthly)
 	
-	def summarize(time,production,monthly,doc):
+	def summarize(self,time,production,monthly):
 		cuttingQty=0
 		assemblyQty=0
 		stitchingQty=0	
@@ -61,6 +48,8 @@ class ProductionActualCost(Document):
 		str=""
 		totalQtyOfAll=0
 		date=""
+		result=[]
+		bahan=0
 		for data in production:
 			totalQtyOfAll+=data.get("produced_qty")
 			if year==0 and dateofyear==0:
@@ -71,6 +60,7 @@ class ProductionActualCost(Document):
 			if year==data.get("year") and dateofyear==data.get("tgl"):
 				
 				if curspk==data.get("kode_spk"):
+					bahan+=data.get("bahan")
 					if data.get("category")=="Stitching" :
 						stitchingQty+=data.get("produced_qty")
 						totalStitchingQty+=data.get("produced_qty")
@@ -81,11 +71,12 @@ class ProductionActualCost(Document):
 						cuttingQty+=data.get("produced_qty")
 						totalCuttingQty+=data.get("produced_qty")
 				else:
-					spk.append([curspk,cuttingQty,stitchingQty,assemblyQty,date])
+					spk.append([curspk,cuttingQty,stitchingQty,assemblyQty,date,bahan])
 					cuttingQty=0
 					assemblyQty=0
 					stitchingQty=0
 					curspk=data.get("kode_spk")
+					bahan=data.get("bahan")
 					if data.get("category")=="Stitching" :
 						stitchingQty=data.get("produced_qty")
 						totalStitchingQty+=data.get("produced_qty")
@@ -96,7 +87,7 @@ class ProductionActualCost(Document):
 						cuttingQty=data.get("produced_qty")
 						totalCuttingQty+=data.get("produced_qty")
 			else:
-				spk.append([curspk,cuttingQty,stitchingQty,assemblyQty,date])
+				spk.append([curspk,cuttingQty,stitchingQty,assemblyQty,date,bahan])
 				for row in spk:
 					flag=1
 					if i>=len(time):
@@ -138,8 +129,9 @@ class ProductionActualCost(Document):
 						sWork=time[i][6]
 						aWork=time[i][9]
 					#result.append([row[0],row[4],row[1],cWork,cHours,cPayment,cAvg,row[2],sWork,sHours,sPayment,sAvg,row[3],aWork,aHours,aPayment,aAvg])
-					result.append([row[0],row[4],row[1],cWork,cHours,cPayment,row[2],sWork,sHours,sPayment,row[3],aWork,aHours,aPayment])
+					result.append([row[0],row[4],row[1],cWork,cHours,cPayment,row[2],sWork,sHours,sPayment,row[3],aWork,aHours,aPayment,row[5]])
 				spk=[]
+				bahan=0
 				cuttingQty=0
 				assemblyQty=0
 				stitchingQty=0
@@ -150,6 +142,7 @@ class ProductionActualCost(Document):
 				dateofyear=data.get("tgl")
 				curspk=data.get("kode_spk")
 				date=data.get("posting_date")
+				bahan=data.get("bahan")
 				if data.get("category")=="Stitching" :
 					stitchingQty=data.get("produced_qty")
 					totalStitchingQty+=stitchingQty
@@ -161,7 +154,7 @@ class ProductionActualCost(Document):
 					totalCuttingQty+=cuttingQty
 		
 		if len(production)>0 :
-			spk.append([curspk,cuttingQty,stitchingQty,assemblyQty,date])
+			spk.append([curspk,cuttingQty,stitchingQty,assemblyQty,date,bahan])
 			
 			
 			#frappe.throw("{} total cutting {} total sticing {} total assembly {}".format(spk,totalCuttingQty,totalStitchingQty,totalAssemblyQty))
@@ -206,20 +199,28 @@ class ProductionActualCost(Document):
 					sWork=time[i][6]
 					aWork=time[i][9]
 				#result.append([row[0],row[4],row[1],cWork,cHours,cPayment,cAvg,row[2],sWork,sHours,sPayment,sAvg,row[3],aWork,aHours,aPayment,aAvg])
-				result.append([row[0],row[4],row[1],cWork,cHours,cPayment,row[2],sWork,sHours,sPayment,row[3],aWork,aHours,aPayment])
-		doc.generate_monthly_cost(result,monthly,totalQtyOfAll,doc)
+				result.append([row[0],row[4],row[1],cWork,cHours,cPayment,row[2],sWork,sHours,sPayment,row[3],aWork,aHours,aPayment,row[5]])
+		
+		self.generate_monthly_cost(result,monthly,totalQtyOfAll)
 	
-	def generate_monthly_cost(data,monthlyCost,totalQty,doc):
+	def generate_monthly_cost(self,data,monthlyCost,totalQty):
+		if totalQty is None:
+			totalQty=0
+		if monthlyCost is None:
+			monthlyCost=0
+		
 		if totalQty==0 or monthlyCost==0:
 			pcost=0
 		else:
 			pcost=float(monthlyCost)/float(totalQty)
 		for row in data:
+			
 			record = frappe.get_doc({
 				"doctype":"Production Actual Cost Record",
+				"production_actual_cost":self.name,
 				"date":row[1],
 				"kode_spk":row[0],
-				"production_actual_cost":doc.name,
+				"parent":self.name,
 				"cqty":row[2],
 				"cworker":row[3],
 				"ctime":row[4],
@@ -232,14 +233,15 @@ class ProductionActualCost(Document):
 				"aworker":row[11],
 				"atime":row[12],
 				"acost":row[13],
-				"mcost":float(row[2])+float(row[6])+float(row[10])*pcost
+				"mcost":float(row[2])+float(row[6])+float(row[10])*pcost,
+				"bahan":row[14]
 			})
-			#record.insert()
-			#record.submit()
+			record.insert()
+			record.submit()
 		
 	
 
-	def get_work_timelog_data(filters):
+	def get_work_timelog_data(self,filters):
 		timelog = frappe.db.sql("""SELECT Year(date) as "year",DAYOFYEAR(date) as "tgl",date, sum(worker) as "people", sum(total_hours) as "hours" , sum(total_payment) as "payment" , activity_type from `tabTime Log` where docstatus=1 and date between %(from_date)s and %(to_date)s group by activity_type,DAYOFYEAR(date) order by date,activity_type""",filters,as_dict=1)
 		year=0
 		dateofyear=0
@@ -279,10 +281,13 @@ class ProductionActualCost(Document):
 			time.append([year,dateofyear,date,cutting[0],cutting[1],cutting[2],stitching[0],stitching[1],stitching[2],assembly[0],assembly[1],assembly[2]])
 		return time
 
-	def get_production_data(filters):
-		production_data = frappe.db.sql("""SELECT Year(STE.posting_date) as "year",DAYOFYEAR(STE.posting_date) as "tgl",prod.kode_spk,prod.category,prod.production_item,prod.name ,SUM(IF(STD.s_warehouse is NULL,1,0)*STD.qty) as "produced_qty",STE.posting_date FROM `tabProduction Order` prod JOIN `tabStock Entry` STE on STE.production_order=prod.name JOIN `tabStock Entry Detail` STD on STD.parent=STE.name WHERE prod.docstatus=1 and STE.docstatus=1 and STD.docstatus=1 and STE.posting_date between %(from_date)s and %(to_date)s group by STE.posting_date,prod.kode_spk,prod.category order by STE.posting_date,prod.kode_spk,prod.category""",filters,as_dict=1)
+	def get_production_data(self,filters):
+		production_data = frappe.db.sql("""SELECT Year(STE.posting_date) as "year",DAYOFYEAR(STE.posting_date) as "tgl",prod.kode_spk,prod.category,prod.production_item,prod.name ,SUM(IF(STD.s_warehouse is NULL,1,0)*STD.qty) as "produced_qty",STE.posting_date, sum(IF(STD.t_warehouse is NULL,IF(i.is_manufactured_item="no",1,0),0)*STD.amount) as "bahan" FROM `tabProduction Order` prod JOIN `tabStock Entry` STE on STE.production_order=prod.name JOIN `tabStock Entry Detail` STD on STD.parent=STE.name JOIN `tabItem` i ON STD.item_code=i.name WHERE prod.docstatus=1 and STE.docstatus=1 and STD.docstatus=1 and STE.posting_date between %(from_date)s and %(to_date)s group by STE.posting_date,prod.kode_spk,prod.category order by STE.posting_date,prod.kode_spk,prod.category""",filters,as_dict=1)
+		
 		return production_data
 		
-	def get_monthly_cost(filters):
-		monthly_cost=frappe.db.sql("""SELECT sum(credit-debit) as total from `tabJournal Voucher Detail` jvd JOIN `tabJournal Voucher` jv on jvd.parent=jv.name where jvd.docstatus=1 and jv.docstatus=1 and (jvd.against_account like "522%" or jvd.against_account like "523%") and jv.posting_date between %(from_date)s and %(to_date)s group by 1""",filters,as_dict=1)
-		return monthly_cost[0]
+	def get_monthly_cost(self,filters):
+		monthly_cost=frappe.db.sql("""SELECT sum(credit-debit) as total from `tabJournal Voucher Detail` jvd JOIN `tabJournal Voucher` jv on jvd.parent=jv.name where jvd.docstatus=1 and jv.docstatus=1 and (jvd.against_account like "522%" or jvd.against_account like "523%") and jv.posting_date between "{}" and "{}" group by NULL""".format(filters.get("from_date"),filters.get("to_date")),as_list=1)
+		if monthly_cost and monthly_cost[0]:
+			return monthly_cost[0][0]
+		return 0
